@@ -12295,7 +12295,7 @@ table p {
 
 @media only screen and (max-width: 767px) {
   .product-area.new-product-area {
-    padding: 36px 0 0px;
+    padding: 0px 0 0px;
   }
   .category-area.category-slider-area {
     padding: 40px 0px !important;
