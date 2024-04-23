@@ -683,8 +683,8 @@ table p {
   text-transform: capitalize;
 }
 .btn-theme.btn-black.btn-border:hover {
-  background-color: #333;
-  border-color: #333;
+  background-color: #5c665d;
+  border-color: #5c665d;
   color: #fff;
 }
 .btn-theme.btn-white {
@@ -1105,7 +1105,7 @@ table p {
   min-width: 38px;
 }
 .pagination-area .page-numbers li .page-number.active {
-  background-color: #333;
+  background-color: #5c665d;
   color: #fff;
 }
 .pagination-area .page-numbers li .page-number.disabled {
@@ -3194,7 +3194,6 @@ table p {
 }
 .has-submenu .submenu-nav > li a {
   color: #e9eada !important;
-  text-decoration: underline;
 }
 .has-submenu .submenu-nav > li:hover > a {
   text-decoration: underline;
@@ -3570,8 +3569,8 @@ table p {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  height: 120px;
-  line-height: 120px;
+  height: 90px;
+  line-height: 90px;
   padding: 0 25px;
   text-transform: uppercase;
 }
@@ -3926,7 +3925,7 @@ table p {
   color: #333;
   font-size: 18px;
   line-height: 1;
-  margin: 0 35px 0 35px;
+  margin: 0 20px;
   padding: 0;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3941,7 +3940,7 @@ table p {
   background-color: transparent;
   border: none;
   color: #333;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -4210,7 +4209,6 @@ table p {
 .header-area.header-default.header-style2 .header-action-area .btn-wishlist {
   color: #fff;
   font-size: 18px;
-  margin-left: 25px;
 }
 .header-area.header-default.header-style2
   .header-action-area
@@ -4224,7 +4222,7 @@ table p {
 @media only screen and (max-width: 1199px) {
   .header-area.header-default.header-style2 .header-action-area .btn-menu {
     color: #fff;
-    margin: 0px;
+    margin: 0px 0 0 15  px;
   }
 }
 .header-area.header-default.header-style3 {
@@ -10844,11 +10842,7 @@ table p {
     padding-right: 0;
   }
 }
-@media only screen and (max-width: 767px) {
-  .divider-area.divider-about-area-style2 .divider-about-thumb {
-    margin-bottom: 9px;
-  }
-}
+
 @media only screen and (max-width: 575px) {
   .divider-area.divider-about-area-style2
     .divider-about-thumb
@@ -10872,6 +10866,7 @@ table p {
 @media only screen and (max-width: 991px) {
   .divider-area.divider-about-area-style2 .divider-about-content {
     margin-left: 0;
+    margin-top: 0;
   }
 }
 .divider-area.divider-about-area-style2 .divider-about-content .title {
@@ -11937,7 +11932,8 @@ table p {
 }
 @media (max-width: 450px) {
   .featured-item .content .inner-content .title h4 {
-    font-size: 15px;
+    font-size: 14px;
+    margin-bottom: 2px;
   }
   .featured-item .content span svg {
     margin-bottom: 12px;
@@ -12297,14 +12293,20 @@ table p {
 -----------------------------------------------------------------------
 */
 
-@media only screen and (max-width: 991px) {
-  .product-area.new-product-area {
-    padding: 50px 0 60px;
-  }
-}
 @media only screen and (max-width: 767px) {
   .product-area.new-product-area {
-    padding: 36px 0 37px;
+    padding: 36px 0 0px;
+  }
+  .category-area.category-slider-area {
+    padding: 40px 0px !important;
+  }
+}
+@media (max-width: 450px) {
+  .category-area.category-slider-area {
+    padding: 25px 0px !important;
+  }
+  .product-area.new-product-area{
+    padding: 12px 0 0px !important;
   }
 }
 .product-area.best-sellers-product-area {
@@ -12317,7 +12319,7 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .product-area.best-sellers-product-area {
-    padding: 65px 0 40px;
+    padding: 33px 0 40px;
   }
 }
 .product-area.outfit-product-area {
@@ -21765,8 +21767,15 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .blog-area.blog-grid-area .post-item .content .inner-content .title {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.2;
+    margin-bottom: 3px;
+  }
+  .blog-area.blog-about-area .post-items .post-item .content .inner-content .title {
+    font-size: 17px !important;
+  }
+  .footer-logo-area h4{
+    font-size: 19px;
   }
 }
 .blog-area.blog-grid-area .post-item .content .inner-content .title a {
@@ -21825,6 +21834,7 @@ table p {
   .page-number.active {
   background-color: #5c665d;
   color: #fff;
+  border: #5c665d;
   cursor: pointer;
 }
 .blog-area.blog-grid-area
@@ -22132,6 +22142,9 @@ table p {
     align-items: start;
     right: auto;
   }
+  .footer-main .widget-item {
+    padding-left: 0px !important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .blog-area.blog-style1-area .container-fluid .section-title {
@@ -22185,7 +22198,7 @@ table p {
 }
 @media only screen and (max-width: 1199px) {
   .blog-area.blog-about-area {
-    padding: 60px 0 60px;
+    padding: 40px 0px;
   }
 }
 
@@ -22340,8 +22353,8 @@ table p {
   line-height: normal;
 }
 .post-items .post-item .content .btn-theme:hover {
-  background-color: #bfabcd;
-  border-color: #bfabcd;
+  background-color: #5c665d;
+  border-color: #5c665d;
   color: #fff;
 }
 .post-items.post-items-style3 .post-item {
@@ -22459,10 +22472,10 @@ table p {
 .post-slider-container
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #bfabcd;
+  background-color: #5c665d;
 }
 .post-slider-container .swiper-pagination .swiper-pagination-bullet:hover {
-  background-color: #bfabcd;
+  background-color: #5c665d;
 }
 
 .blog-details-area {
@@ -22614,7 +22627,7 @@ table p {
 }
 
 .widget-custom-menu:-webkit-scrollbar-track {
-  background-color: black;
+  background-color: red;
 }
 .sidebar-area .widget-custom-menu ul .has-sub {
   color: #444;
@@ -24156,15 +24169,12 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .footer-area.footer-style1 .footer-main {
-    padding: 46px 30px 50px 30px;
+    padding: 22px 28px 49px 26px;
   }
 }
 .footer-area.footer-style1 .footer-main .footer-logo-area a .logo-main {
   width: 195px;
 }
-/* .footer-area.footer-style1 .footer-main .widget-item.widget-social-item {
-  padding-left: 86px;
-} */
 @media only screen and (max-width: 767px) {
   .footer-area.footer-style1 .footer-main .widget-item.widget-social-item {
     padding-left: 0;
@@ -26222,7 +26232,7 @@ table p {
     margin-bottom: 5px;
   }
   .blog-area.blog-about-area .post-items .post-item .content .btn-theme {
-    width: 100%;
+    width: 99%;
     text-align: center;
     padding: 9px 30px;
   }
@@ -26256,7 +26266,7 @@ table p {
   display: block;
   width: 40px;
   height: 3px;
-  background: #ffc900;
+  background: #5c665d;
   bottom: 0;
 }
 .widget_categories ul {
@@ -26448,7 +26458,6 @@ table p {
   width: 60px !important;
   border: 1px solid #ebebeb !important;
   background: none !important;
-  height: 41px !important;
   padding: 0 20px !important;
   border-radius: 5px !important;
 }
@@ -26496,9 +26505,9 @@ table p {
 }
 @media (max-width: 450px) {
   .page-not-found-area .thumb h1 {
-    font-size: 70px;
-    margin: 0 0 0px;
-    line-height: 80px;
+    font-size: 70px !important;
+    margin: 0 0 0px !important;
+    line-height: 80px !important;
   }
   .page-not-found-area.server-error-area {
     padding: 25px 0px 42px;
@@ -26736,7 +26745,7 @@ tr {
   font-size: 22px;
 }
 .footer-logo {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 .footer-logo-area h4 {
   font-weight: 500;
@@ -26748,7 +26757,7 @@ tr {
   line-height: 26px;
 }
 .category-area.category-slider-area {
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 .divider-area.divider-about-area-style2 .row {
   display: flex;
@@ -26779,7 +26788,7 @@ tr {
 .language_currency > ul > li > a {
   text-transform: capitalize;
   line-height: 39px;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   font-weight: 400;
   color: #fff;
@@ -26791,7 +26800,7 @@ tr {
   padding: 10px 15px;
   text-align: left;
   top: 100%;
-  left: 0px;
+  left: -3px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   overflow: hidden;
@@ -26857,5 +26866,27 @@ tr {
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 500;
+}
+.header-area.header-default.header-style2.header-transparent {
+  background-color: #e0e0d454;
+}
+.header-action-cart.other-pages .btn-wishlist {
+  color: #5c665d !important;
+}
+.header-action-cart.other-pages .language a {
+  color: #949980 !important;
+}
+@media (max-width: 720px) {
+  .featured-area {
+    padding: 20px 0px 20px !important;
+  }
+}
+@media (max-width: 450px){
+  .logo-main-text{
+    max-width: 70px !important;
+  }
+  .logo-main{
+    max-width: 45px !important;
+  }
 }
 /* AY CSS*/
