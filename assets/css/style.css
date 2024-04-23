@@ -3956,11 +3956,11 @@ table p {
   background-color: #5c665d;
   color: #fff;
   display: inline-block;
-  top: -11px;
+  top: -8px;
   font-size: 10px;
   height: 16px;
   line-height: 16px;
-  right: -4px;
+  right: -7px;
   position: absolute;
   text-align: center;
   width: 16px;
@@ -26552,7 +26552,8 @@ table p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 .details_cart_btn a {
   background-color: #00d25c;
@@ -26565,6 +26566,7 @@ table p {
 }
 .details_cart_btn i {
   margin-right: 5px;
+  font-size: 20px;
 }
 .product-area.product-detail .thumb-item .lightbox-image {
   height: 100%;
@@ -26887,6 +26889,11 @@ tr {
   }
   .logo-main{
     max-width: 45px !important;
+  }
+}
+@media(max-width: 768px) {
+  .product-area.product-detail .product-desc{
+    max-height: 190px !important;
   }
 }
 /* AY CSS*/

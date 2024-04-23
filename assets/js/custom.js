@@ -683,7 +683,6 @@ $(function () {
   });
 });
 
-
 $(".sidebar-open").click(function () {
   $(".sidebar_widget").addClass("active");
 });
@@ -700,21 +699,21 @@ $(".widget_sub_categories > a").on("click", function () {
   $(this).siblings(".widget_dropdown_categories").slideToggle("medium");
 });
 /*---product-details input start---*/
-$(document).ready(function () {
-  $(".increment").on("click", function () {
-    const $counter = $(this).siblings(".counter");
-    let counterValue = parseInt($counter.val());
-    counterValue++;
-    $counter.val(counterValue);
-  });
+// $(document).ready(function () {
+//   $(".increment").on("click", function () {
+//     const $counter = $(this).siblings(".counter");
+//     let counterValue = parseInt($counter.val());
+//     counterValue++;
+//     $counter.val(counterValue);
+//   });
 
-  $(".decrement").on("click", function () {
-    const $counter = $(this).siblings(".counter");
-    let counterValue = parseInt($counter.val());
-    if (counterValue > 1) {
-      counterValue--;
-      $counter.val(counterValue);
-    }
-  });
-});
+//   $(".decrement").on("click", function () {
+//     const $counter = $(this).siblings(".counter");
+//     let counterValue = parseInt($counter.val());
+//     if (counterValue > 1) {
+//       counterValue--;
+//       $counter.val(counterValue);
+//     }
+//   });
+// });
 /*---product-details input end---*/
