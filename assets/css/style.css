@@ -26,7 +26,7 @@
 body {
   color: #666666;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
@@ -48,7 +48,7 @@ h6,
 .h5,
 .h6 {
   color: #333333;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -186,7 +186,7 @@ table p {
   margin-right: -15px;
   margin-left: -15px;
 }
-.row > [class*="col-"] {
+.row > [class*='col-'] {
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -196,13 +196,13 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .section-title {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
   }
 }
 .section-title .subtitle {
   color: #5c665d;
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1.6px;
@@ -224,12 +224,13 @@ table p {
   background-color: #fff;
 }
 .section-title .title {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
   letter-spacing: -0.8px;
   line-height: 1;
   margin-bottom: 0;
   margin-top: 0;
+  margin-bottom: 5px;
   text-transform: capitalize;
 }
 @media only screen and (max-width: 1199px) {
@@ -242,17 +243,17 @@ table p {
     font-size: 24px !important;
   }
 }
-.section-title .title.line-bottom {
+.section-title .title.line-sneakerstom {
   display: inline-block;
   position: relative;
 }
-.section-title .title.line-bottom:after {
+.section-title .title.line-sneakerstom:after {
   background-color: #2b2b2b;
-  content: "";
+  content: '';
   height: 1px;
   left: 0;
   position: absolute;
-  bottom: -1px;
+  sneakerstom: -1px;
   width: 100%;
   z-index: 1;
   transition: 0.4s;
@@ -271,7 +272,7 @@ table p {
 }
 .section-title.separator-line-top:before {
   background-color: #afe1d5;
-  content: "";
+  content: '';
   height: 60px;
   left: 50%;
   position: absolute;
@@ -390,7 +391,7 @@ table p {
 .row-gutter-0 {
   margin: 0;
 }
-.row-gutter-0 [class*="col-"] {
+.row-gutter-0 [class*='col-'] {
   margin: 0;
   padding: 0;
 }
@@ -399,7 +400,7 @@ table p {
   margin-right: -3px;
   margin-left: -3px;
 }
-.row-gutter-6 [class*="col"] {
+.row-gutter-6 [class*='col'] {
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -408,7 +409,7 @@ table p {
   margin-right: -2px;
   margin-left: -2px;
 }
-.row-gutter-4 [class*="col"] {
+.row-gutter-4 [class*='col'] {
   padding-left: 2px;
   padding-right: 2px;
 }
@@ -417,7 +418,7 @@ table p {
   margin-right: -5px;
   margin-left: -5px;
 }
-.row-gutter-10 [class*="col"] {
+.row-gutter-10 [class*='col'] {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -426,7 +427,7 @@ table p {
   margin-right: -6px;
   margin-left: -6px;
 }
-.row-gutter-12 [class*="col"] {
+.row-gutter-12 [class*='col'] {
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -436,7 +437,7 @@ table p {
     margin-right: -10px;
     margin-left: -10px;
   }
-  .row-gutter-20 [class*="col"] {
+  .row-gutter-20 [class*='col'] {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -452,13 +453,13 @@ table p {
     margin-right: -15px;
   }
 }
-.row-gutter-36 [class*="col"] {
+.row-gutter-36 [class*='col'] {
   margin: 0;
   padding-left: 18px;
   padding-right: 18px;
 }
 @media only screen and (max-width: 1199px) {
-  .row-gutter-36 [class*="col"] {
+  .row-gutter-36 [class*='col'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -474,13 +475,13 @@ table p {
     margin-right: -15px;
   }
 }
-.row-gutter-40 [class*="col-"] {
+.row-gutter-40 [class*='col-'] {
   margin: 0;
   padding-left: 20px;
   padding-right: 20px;
 }
 @media only screen and (max-width: 1199px) {
-  .row-gutter-40 [class*="col-"] {
+  .row-gutter-40 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -490,7 +491,7 @@ table p {
   margin-right: -22.5px;
   margin-left: -22.5px;
 }
-.row-gutter-45 [class*="col-"] {
+.row-gutter-45 [class*='col-'] {
   margin: 0;
   padding-left: 22.5px;
   padding-right: 22.5px;
@@ -501,7 +502,7 @@ table p {
     margin-right: -25px;
     margin-left: -25px;
   }
-  .row-gutter-50 [class*="col"] {
+  .row-gutter-50 [class*='col'] {
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -520,14 +521,14 @@ table p {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .row-gutter-60 [class*="col-"] {
+  .row-gutter-60 [class*='col-'] {
     margin: 0;
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .row-gutter-60 [class*="col-"] {
+  .row-gutter-60 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -543,13 +544,13 @@ table p {
     margin-right: -15px;
   }
 }
-.row-gutter-70 [class*="col-"] {
+.row-gutter-70 [class*='col-'] {
   margin: 0;
   padding-left: 35px;
   padding-right: 35px;
 }
 @media only screen and (max-width: 1199px) {
-  .row-gutter-70 [class*="col-"] {
+  .row-gutter-70 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -559,7 +560,7 @@ table p {
   margin-right: -40px;
   margin-left: -40px;
 }
-.row-gutter-80 [class*="col-"] {
+.row-gutter-80 [class*='col-'] {
   margin: 0;
   padding-left: 40px;
   padding-right: 40px;
@@ -569,7 +570,7 @@ table p {
   margin-right: -45px;
   margin-left: -45px;
 }
-.row-gutter-90 [class*="col-"] {
+.row-gutter-90 [class*='col-'] {
   margin: 0;
   padding-left: 45px;
   padding-right: 45px;
@@ -591,19 +592,19 @@ table p {
     margin-right: -15px;
   }
 }
-.row-gutter-150 [class*="col-"] {
+.row-gutter-150 [class*='col-'] {
   margin: 0;
   padding-left: 75px;
   padding-right: 75px;
 }
 @media (max-width: 1599px) {
-  .row-gutter-150 [class*="col-"] {
+  .row-gutter-150 [class*='col-'] {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .row-gutter-150 [class*="col-"] {
+  .row-gutter-150 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -775,8 +776,8 @@ table p {
 .btn-theme.btn-slide:before {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  bottom: -40px;
-  content: "";
+  sneakerstom: -40px;
+  content: '';
   height: 65px;
   left: -27px;
   position: absolute;
@@ -791,7 +792,7 @@ table p {
 .btn-theme.btn-slide:after {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  content: "";
+  content: '';
   height: 65px;
   position: absolute;
   right: -27px;
@@ -809,7 +810,7 @@ table p {
 }
 .btn-theme.btn-slide:hover:before {
   border-radius: 32.5px;
-  bottom: 0;
+  sneakerstom: 0;
   height: 100%;
   left: 0;
   opacity: 0;
@@ -832,11 +833,11 @@ table p {
 }
 .btn-theme.btn-hover-style:before {
   background-color: #0a1039;
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
-  bottom: 0;
+  sneakerstom: 0;
   left: 0;
   right: 0;
   transform: scaleY(0);
@@ -869,11 +870,11 @@ table p {
 }
 .btn-theme.btn-hover-style-bg:before {
   background-color: #0a1039;
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
-  bottom: 0;
+  sneakerstom: 0;
   left: 0;
   right: 0;
   transform: scaleY(0);
@@ -964,7 +965,11 @@ table p {
 }
 @media only screen and (max-width: 575px) {
   .page-title-area .page-title-content {
-    padding: 50px 0 40px;
+    padding: 30px 0 30px;
+  }
+  .blog-area.blog-grid-area .post-item .content .inner-content .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
   }
 }
 .page-title-area .page-title-content .title {
@@ -973,7 +978,7 @@ table p {
   font-weight: 600;
   letter-spacing: -0.8px;
   line-height: 1.2;
-  margin-bottom: 3px;
+  margin: 3px;
 }
 @media only screen and (max-width: 1199px) {
   .page-title-area .page-title-content .title {
@@ -1165,7 +1170,7 @@ table p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 600;
   -webkit-box-pack: justify;
@@ -1303,8 +1308,8 @@ table p {
   .accordion-header
   .accordion-button:before {
   color: #333;
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   position: absolute;
   right: 0;
   font-size: 12px;
@@ -1335,7 +1340,7 @@ table p {
   .accordion-header
   .accordion-button:not(.collapsed):after {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   background: none;
   width: 100%;
@@ -1352,7 +1357,7 @@ table p {
   .accordion-item
   .accordion-header
   .accordion-button:not(.collapsed):before {
-  content: "";
+  content: '';
 }
 .faq-area .accordian-content .accordion .accordion-item .accordion-collapse {
   border: none;
@@ -1392,7 +1397,7 @@ table p {
 .page-not-found-area .content .title {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   letter-spacing: -0.4px;
   line-height: 1.3;
   margin-bottom: 20px;
@@ -1412,8 +1417,8 @@ table p {
   }
 }
 .page-not-found-area .content .title:before {
-  bottom: 24px;
-  content: "";
+  sneakerstom: 24px;
+  content: '';
   position: absolute;
   width: 75px;
   border-top: 2px solid #5c665d;
@@ -1426,7 +1431,7 @@ table p {
 }
 .page-not-found-area .content .title:after {
   top: 24px;
-  content: "";
+  content: '';
   position: absolute;
   width: 75px;
   border-top: 2px solid #5c665d;
@@ -1522,7 +1527,7 @@ table p {
   color: #fff;
   font-size: 40px;
   font-weight: 400;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   letter-spacing: -0.8px;
   line-height: 1.3;
   text-align: center;
@@ -1538,7 +1543,7 @@ table p {
 }
 .coming-soon-wrap .coming-soon-content .title:after {
   top: 24px;
-  content: "";
+  content: '';
   position: absolute;
   width: 75px;
   border-top: 2px solid #fff;
@@ -1550,8 +1555,8 @@ table p {
   }
 }
 .coming-soon-wrap .coming-soon-content .title:before {
-  bottom: 24px;
-  content: "";
+  sneakerstom: 24px;
+  content: '';
   position: absolute;
   width: 75px;
   border-top: 2px solid #fff;
@@ -1578,7 +1583,7 @@ table p {
   top: 0;
   left: 0;
   margin-bottom: 0;
-  bottom: 0;
+  sneakerstom: 0;
 }
 .coming-soon-wrap .coming-soon-content .countdown-content .countdown-timer li {
   background-color: transparent;
@@ -3057,7 +3062,7 @@ table p {
   background-color: #5c665d;
   border: none;
   border-radius: 50%;
-  bottom: 53px;
+  sneakerstom: 53px;
   color: #fff;
   cursor: pointer;
   display: none;
@@ -3078,7 +3083,7 @@ table p {
 @media only screen and (max-width: 767px) {
   .scroll-to-top {
     right: 30px;
-    bottom: 7px;
+    sneakerstom: 7px;
   }
 }
 .scroll-to-top:hover {
@@ -3096,7 +3101,7 @@ table p {
 .main-menu {
   -ms-flex-line-pack: center;
   align-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .main-menu > li {
   margin-right: 14px;
@@ -3132,12 +3137,12 @@ table p {
   position: relative;
 }
 .has-submenu > a:after {
-  content: "";
+  content: '';
   color: #1b1b1b;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   position: absolute;
   right: 11px;
   top: 7px;
@@ -3155,8 +3160,8 @@ table p {
 .has-submenu .submenu-nav {
   -webkit-box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.09);
   box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.09);
-  background-color: #5c665d;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   display: block;
   margin-top: 20px;
   position: absolute;
@@ -3172,19 +3177,19 @@ table p {
   z-index: 999;
 }
 .has-submenu .submenu-nav:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 56px;
   width: 100%;
   left: 0;
-  bottom: 100%;
+  sneakerstom: 100%;
 }
 .has-submenu .submenu-nav > li {
   line-height: 1.8;
   position: relative;
 }
 .has-submenu .submenu-nav > li a {
-  color: #e9eada;
+  color: #fff;
   display: block;
   font-size: 14px;
   line-height: 1.8;
@@ -3193,7 +3198,7 @@ table p {
   text-transform: capitalize;
 }
 .has-submenu .submenu-nav > li a {
-  color: #e9eada !important;
+  color: #333 !important;
 }
 .has-submenu .submenu-nav > li:hover > a {
   text-decoration: underline;
@@ -3212,11 +3217,11 @@ table p {
   pointer-events: visible;
 }
 .has-submenu .submenu-nav > li.has-submenu:after {
-  content: "";
+  content: '';
   color: #666666;
   font-size: 15px;
   line-height: 1.2;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   position: absolute;
   right: 25px;
   top: 12px;
@@ -3265,9 +3270,9 @@ table p {
   position: relative;
 }
 .has-submenu .submenu-nav-mega .mega-menu-item ul li.feature a:before {
-  content: "";
+  content: '';
   position: absolute;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   color: #5c665d;
   right: -20px;
   top: 1px;
@@ -3278,7 +3283,7 @@ table p {
 }
 .has-submenu .submenu-nav-mega .mega-menu-item ul li.new a:after {
   background-color: #5c665d;
-  content: "New";
+  content: 'New';
   color: #fff;
   font-size: 13px;
   font-weight: 600;
@@ -3508,7 +3513,7 @@ table p {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   line-height: 1.8;
   text-transform: uppercase;
   margin: 0;
@@ -3552,8 +3557,11 @@ table p {
   }
 }
 .header-area.header-default .header-logo-area {
-  max-width: 160px;
+  max-width: 210px;
   top: 0;
+}
+.footer-logo img {
+  width: 210px;
 }
 @media (max-width: 1449px) {
   .header-area.header-default .header-navigation-area .main-menu {
@@ -3567,11 +3575,11 @@ table p {
 .header-area.header-default .header-navigation-area .main-menu > li > a {
   color: #333;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   height: 90px;
   line-height: 90px;
-  padding: 0 25px;
+  padding: 0 20px;
   text-transform: uppercase;
 }
 .header-area.header-default .header-navigation-area .main-menu > li > a:hover {
@@ -3582,9 +3590,9 @@ table p {
   .main-menu
   .has-submenu
   > a:after {
-  content: "";
+  content: '';
   display: inline-block;
-  font-family: "LaStudioIcons";
+  font-family: 'LaStudioIcons';
   font-weight: 400;
   font-size: 10px;
   position: absolute;
@@ -3627,7 +3635,7 @@ table p {
   position: fixed;
   left: 50%;
   min-width: 1200px;
-  padding: 40px 31px 30px 40px;
+  padding: 30px 40px;
   width: 100%;
   -webkit-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
@@ -3649,6 +3657,7 @@ table p {
   .submenu-nav-mega
   > li.mega-menu-item {
   padding-right: 0;
+  margin-top: 10px;
 }
 .header-area.header-default
   .header-navigation-area
@@ -3679,7 +3688,7 @@ table p {
   ul
   li:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0;
@@ -3771,7 +3780,7 @@ table p {
   > li
   > ul
   > li {
-  padding: 0 0 10px;
+  padding: 6px 0 0px;
 }
 .header-area.header-default
   .header-navigation-area
@@ -3995,7 +4004,7 @@ table p {
   box-shadow: none;
   color: #333;
   font-size: 23px;
-  margin: 0 0 0 32px;
+  margin: 0 0 0 25px;
   padding: 0;
 }
 .header-area.header-default.header-style2 {
@@ -4222,7 +4231,7 @@ table p {
 @media only screen and (max-width: 1199px) {
   .header-area.header-default.header-style2 .header-action-area .btn-menu {
     color: #fff;
-    margin: 0px 0 0 15  px;
+    margin: 0px 0 0 15 px;
   }
 }
 .header-area.header-default.header-style3 {
@@ -4548,7 +4557,7 @@ table p {
   > li
   > a {
   font-size: 18px;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   height: 129px;
   line-height: 131px;
 }
@@ -5040,11 +5049,11 @@ table p {
   > li.has-submenu
   > a:after {
   color: #444;
-  content: "";
+  content: '';
   right: 16px;
   font-size: 8px;
   line-height: 1;
-  font-family: "LaStudioIcons";
+  font-family: 'LaStudioIcons';
   display: inline-block;
   vertical-align: middle;
   font-style: normal;
@@ -5155,11 +5164,11 @@ table p {
 }
 @media only screen and (max-width: 991px) {
   .header-area.fixed-left .header-action-area .btn-search-content {
-    bottom: -120px;
+    sneakerstom: -120px;
     right: 30px;
   }
   .header-area.fixed-left .header-action-area .btn-search-content.show {
-    bottom: -100px;
+    sneakerstom: -100px;
   }
 }
 .header-area.fixed-left.transparet {
@@ -5271,7 +5280,7 @@ table p {
 }
 .header-top .header-top-nav ul li:before {
   background-color: #232953;
-  content: "";
+  content: '';
   height: 13px;
   position: absolute;
   right: -20px;
@@ -5348,7 +5357,7 @@ table p {
 }
 
 .header-logo-area {
-  max-width: 120px;
+  /* max-width: 120px; */
   position: relative;
   top: 1px;
 }
@@ -5370,7 +5379,7 @@ table p {
   width: 420px;
   padding: 100px 50px 50px;
   min-height: 100vh;
-  bottom: 0;
+  sneakerstom: 0;
   z-index: 9999;
   right: 0;
   opacity: 0;
@@ -5479,7 +5488,7 @@ table p {
   .product-info
   .title {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -5556,7 +5565,7 @@ table p {
   .cart-total
   h4 {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin: 0;
 }
@@ -5722,7 +5731,7 @@ table p {
   opacity: 0;
   right: 0;
   left: 0;
-  bottom: 0;
+  sneakerstom: 0;
   top: 0;
   -webkit-transition: all 250ms ease-out;
   transition: all 250ms ease-out;
@@ -5870,7 +5879,7 @@ table p {
   padding: 0;
   margin: 0;
   position: absolute;
-  bottom: 18px;
+  sneakerstom: 18px;
   right: 15px;
 }
 .search-box-wrapper
@@ -5927,7 +5936,7 @@ table p {
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
   background-color: #fff;
-  bottom: 0;
+  sneakerstom: 0;
   min-height: 100vh;
   opacity: 0;
   position: fixed;
@@ -5956,7 +5965,7 @@ table p {
 }
 @media only screen and (max-width: 575px) {
   .off-canvas-wrapper .off-canvas-inner {
-    padding: 150px 30px 20px;
+    padding: 80px 30px 20px;
   }
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-overlay {
@@ -5980,7 +5989,7 @@ table p {
   opacity: 1;
   padding: 0;
   position: absolute;
-  top: 80px;
+  top: 40px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -6035,7 +6044,7 @@ table p {
     .res-mobile-menu
     .slicknav_nav
     li {
-    margin-bottom: 30px;
+    margin: 20px;
   }
 }
 .off-canvas-wrapper
@@ -6110,7 +6119,7 @@ table p {
   .slicknav_nav
   li
   ul {
-  padding: 20px 0 0px 25px;
+  padding: 15px 0 0px 15px;
 }
 .off-canvas-wrapper
   .off-canvas-inner
@@ -6122,7 +6131,7 @@ table p {
   ul
   li {
   margin: 0;
-  padding-bottom: 22px;
+  padding: 10px;
   padding-left: 0;
 }
 .off-canvas-wrapper
@@ -6134,7 +6143,7 @@ table p {
   li
   ul
   li:last-child {
-  padding-bottom: 0;
+  /* padding: 0; */
 }
 .off-canvas-wrapper
   .off-canvas-inner
@@ -6329,7 +6338,7 @@ table p {
   li
   a {
   color: #fff;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
   font-size: 32px;
   display: inline-block;
 }
@@ -6450,7 +6459,7 @@ table p {
   .slicknav_nav
   li
   a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .off-canvas-wrapper.canvas-fullpage-menu.fullpage-menu-style2
   .off-canvas-inner
@@ -6493,7 +6502,7 @@ table p {
   .slicknav_nav
   li
   a {
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
 }
 .off-canvas-wrapper.canvas-fullpage-menu.fullpage-menu-style3
   .off-canvas-inner
@@ -6583,7 +6592,7 @@ table p {
   .home-slider-content
   .swiper-container
   .swiper-pagination {
-  bottom: 23px;
+  sneakerstom: 23px;
 }
 .home-slider-area.slider-default
   .home-slider-content
@@ -6630,7 +6639,7 @@ table p {
   .home-slider-content
   .swiper-button-next:before {
   color: rgba(0, 0, 0, 0.3);
-  font-family: "LaStudioIcons";
+  font-family: 'LaStudioIcons';
   font-size: 18px;
   left: -2px;
   line-height: 1;
@@ -6667,7 +6676,7 @@ table p {
 .home-slider-area.slider-default
   .home-slider-content
   .swiper-button-prev:before {
-  content: "";
+  content: '';
 }
 .home-slider-area.slider-default .home-slider-content .swiper-button-next {
   right: 50px;
@@ -6675,7 +6684,7 @@ table p {
 .home-slider-area.slider-default
   .home-slider-content
   .swiper-button-next:before {
-  content: "";
+  content: '';
   left: auto;
   right: -2px;
 }
@@ -6684,7 +6693,7 @@ table p {
 }
 .home-slider-area.slider-default .bg-overlay:before {
   background-color: rgba(0, 0, 0, 0.3);
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -6703,8 +6712,8 @@ table p {
   transform: scale(1);
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -6742,8 +6751,8 @@ table p {
   left: 28%;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -6756,7 +6765,7 @@ table p {
   .inner-content
   h2 {
   color: #fff;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: 80px;
   line-height: 0.9;
   margin-bottom: 20px;
@@ -6825,8 +6834,8 @@ table p {
   margin-left: auto;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
@@ -6939,7 +6948,7 @@ table p {
     background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
     left: 0;
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     width: 100%;
@@ -6968,8 +6977,8 @@ table p {
   max-width: 400px;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
 }
 @media only screen and (max-width: 1399px) {
   .home-slider-area.slider-home2
@@ -7222,7 +7231,7 @@ table p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  bottom: 24px;
+  sneakerstom: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7320,7 +7329,7 @@ table p {
 .home-slider-area.slider-home3 .home-slider-content .swiper-button-prev:before,
 .home-slider-area.slider-home3 .home-slider-content .swiper-button-next:before {
   color: #fff;
-  font-family: "LaStudioIcons";
+  font-family: 'LaStudioIcons';
   font-size: 18px;
   left: -2px;
   line-height: 1;
@@ -7351,18 +7360,18 @@ table p {
   left: 20px;
 }
 .home-slider-area.slider-home3 .home-slider-content .swiper-button-prev:before {
-  content: "";
+  content: '';
 }
 .home-slider-area.slider-home3 .home-slider-content .swiper-button-next {
   right: 20px;
 }
 .home-slider-area.slider-home3 .home-slider-content .swiper-button-next:before {
-  content: "";
+  content: '';
   left: auto;
   right: -2px;
 }
 .home-slider-area.slider-home3 .home-slider-content .swiper-pagination {
-  bottom: 15px;
+  sneakerstom: 15px;
 }
 .home-slider-area.slider-home3
   .home-slider-content
@@ -7392,8 +7401,8 @@ table p {
   transform: scale(1);
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -7458,8 +7467,8 @@ table p {
   position: relative;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -7468,7 +7477,7 @@ table p {
 }
 .home-slider-area.slider-home3 .slider-content-area .content .inner-content h4 {
   color: #fff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
@@ -7477,7 +7486,7 @@ table p {
 }
 .home-slider-area.slider-home3 .slider-content-area .content .inner-content h2 {
   color: #fff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 84px;
   font-weight: 700;
   line-height: 1.1;
@@ -7514,7 +7523,7 @@ table p {
 }
 .home-slider-area.slider-home3 .slider-content-area .content .inner-content p {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 40px;
@@ -7525,7 +7534,7 @@ table p {
   .inner-content
   .btn-theme.btn-black {
   background-color: #333;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;
@@ -7659,8 +7668,8 @@ table p {
   transform: scale(1);
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 10s;
   -webkit-transition: 10s;
   -moz-transition: 10s;
@@ -7685,7 +7694,7 @@ table p {
   .home-slider-content
   .home-slider4-container
   .swiper-pagination {
-  bottom: 15px;
+  sneakerstom: 15px;
 }
 .home-slider-area.slider-home4
   .home-slider-content
@@ -7720,7 +7729,7 @@ table p {
 }
 .home-slider-area.slider-home5 .home-slider-content:before {
   background-color: #a64637;
-  content: "";
+  content: '';
   height: 720px;
   left: 0;
   position: absolute;
@@ -8013,7 +8022,7 @@ table p {
   .title-style
   .sub-title {
   color: #fff;
-  font-family: "Black And White Picture", sans-serif;
+  font-family: 'Black And White Picture', sans-serif;
   font-size: 136px;
   font-weight: 400;
   font-style: italic;
@@ -8167,8 +8176,8 @@ table p {
 }
 .home-slider-area.slider-home6 .home-slider-content:before {
   background-color: #fff;
-  bottom: 0;
-  content: "";
+  sneakerstom: 0;
+  content: '';
   height: 180px;
   left: 0;
   position: absolute;
@@ -8515,14 +8524,14 @@ table p {
   span {
   color: #333;
   display: inline-block;
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 1;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -8741,14 +8750,14 @@ table p {
   .content
   p {
   color: #333;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 20px;
   line-height: 1.25;
   max-width: 530px;
   -webkit-animation-duration: 1.2s;
   animation-duration: 1.2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -8812,8 +8821,8 @@ table p {
   position: relative;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -8971,8 +8980,8 @@ table p {
   margin-bottom: 20px;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9023,8 +9032,8 @@ table p {
   line-height: 1;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9096,8 +9105,8 @@ table p {
   .thumb.thumb-style {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9122,8 +9131,8 @@ table p {
   z-index: -1;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9166,7 +9175,7 @@ table p {
   .shape-layer-two {
   background-color: #fff;
   border-radius: 50%;
-  bottom: -150px;
+  sneakerstom: -150px;
   height: 610px;
   left: -100px;
   position: absolute;
@@ -9174,8 +9183,8 @@ table p {
   z-index: -1;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9204,7 +9213,7 @@ table p {
   .shape-layer-three {
   background-color: #fff;
   border-radius: 50%;
-  bottom: -150px;
+  sneakerstom: -150px;
   height: 610px;
   position: absolute;
   right: -250px;
@@ -9212,8 +9221,8 @@ table p {
   z-index: -1;
   -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 2s;
   -webkit-transition: 2s;
   -moz-transition: 2s;
@@ -9232,7 +9241,7 @@ table p {
     height: 330px;
     right: -100px;
     width: 330px;
-    bottom: 0;
+    sneakerstom: 0;
   }
 }
 @media only screen and (max-width: 1399px) {
@@ -9254,7 +9263,7 @@ table p {
   background-color: transparent;
   border: 3px solid #ddd;
   border-radius: 50%;
-  bottom: 47px;
+  sneakerstom: 47px;
   height: 66px;
   left: calc(37% + 5px);
   line-height: 68px;
@@ -9296,7 +9305,7 @@ table p {
     .home-slider-content
     .home-slider6-container
     .swiper-button-next {
-    bottom: 0;
+    sneakerstom: 0;
   }
 }
 @media only screen and (max-width: 479.98px) {
@@ -9316,8 +9325,8 @@ table p {
   .home-slider6-container
   .swiper-button-next:before {
   color: #ddd;
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   font-size: 40px;
   left: auto;
   line-height: 1;
@@ -9494,8 +9503,8 @@ table p {
   transform: scale(1);
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 10s;
   -webkit-transition: 10s;
   -moz-transition: 10s;
@@ -9514,8 +9523,8 @@ table p {
   position: relative;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
 }
 @media only screen and (max-width: 479.98px) {
   .home-slider-area.slider-home7
@@ -9536,7 +9545,7 @@ table p {
   .home-slider-item
   .slider-content-area:before {
   background-color: #fff;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -9554,7 +9563,7 @@ table p {
   .content
   .inner-content
   h4 {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 6px;
@@ -9642,7 +9651,7 @@ table p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  bottom: -9px;
+  sneakerstom: -9px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9657,7 +9666,7 @@ table p {
   border-top: 1px solid #ddd;
   border-radius: 0;
   color: #444;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 18px;
   height: 32px;
   margin: 0;
@@ -9914,7 +9923,7 @@ table p {
   width: 100%;
 }
 .team-member .thumb .social-icons {
-  bottom: 15px;
+  sneakerstom: 15px;
   position: absolute;
   right: 15px;
 }
@@ -9962,7 +9971,7 @@ table p {
 .team-member .content .member-info .name {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .team-member .content .member-info .name a {
   color: #6d6d6d;
@@ -9984,7 +9993,7 @@ table p {
 }
 .team-members-style2 .team-member .thumb:after {
   background-color: #804f2e;
-  content: "";
+  content: '';
   position: absolute;
   opacity: 0.8;
   width: calc(100% - 40px);
@@ -10046,7 +10055,7 @@ table p {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -10507,8 +10516,8 @@ table p {
 .testimonial-slider-content
   .testimonial-slider-container
   .swiper-button-next:before {
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   font-size: 40px;
 }
 .testimonial-slider-content
@@ -10540,7 +10549,7 @@ table p {
 .testimonial-slider-content
   .testimonial-slider-container
   .swiper-button-prev:before {
-  content: "";
+  content: '';
 }
 .testimonial-slider-content .testimonial-slider-container .swiper-button-next {
   right: 106px;
@@ -10555,7 +10564,7 @@ table p {
 .testimonial-slider-content
   .testimonial-slider-container
   .swiper-button-next:before {
-  content: "";
+  content: '';
 }
 
 .testimonial-item .client-content {
@@ -10710,6 +10719,7 @@ table p {
 .divider-area.divider-about-area {
   background-color: #e9eada;
   padding: 100px 120px;
+  margin: 30px;
 }
 @media only screen and (max-width: 1399px) {
   .divider-area.divider-about-area {
@@ -10753,6 +10763,8 @@ table p {
   letter-spacing: 1.6px;
   margin-bottom: 13px;
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
 }
 .divider-area.divider-about-area
   .divider-about-content
@@ -11179,7 +11191,7 @@ table p {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -11440,7 +11452,7 @@ table p {
 .newsletter-content.content-style3 p {
   color: #fff;
   font-size: 20px;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
   line-height: 1.8;
   margin-bottom: 0;
@@ -11470,7 +11482,7 @@ table p {
   box-shadow: none;
   color: #fff;
   font-size: 20px;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
   line-height: 30px;
   padding: 0 110px 10px 0;
@@ -11508,7 +11520,7 @@ table p {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   line-height: 30px;
   padding: 0;
   position: absolute;
@@ -11657,6 +11669,7 @@ table p {
   width: 100%;
   height: auto;
   aspect-ratio: 749 / 440;
+  aspect-ratio: 1280/720;
   object-fit: cover;
 }
 .video-content .thumb .btn-play {
@@ -11673,7 +11686,7 @@ table p {
 }
 .bg-overlay2:before {
   background-color: #1c152f;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.7;
@@ -11687,7 +11700,7 @@ table p {
 }
 .bg-overlay3:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.3;
@@ -11701,7 +11714,7 @@ table p {
 }
 .bg-overlay4:before {
   background-color: #333;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -11715,7 +11728,7 @@ table p {
 }
 .bg-overlay-black-5:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -11729,7 +11742,7 @@ table p {
 }
 .bg-overlay-black2-5:before {
   background-color: #222;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -11744,7 +11757,7 @@ table p {
 }
 .bg-overlay-black2-51:before {
   background-color: #222;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -11758,7 +11771,7 @@ table p {
 }
 .bg-overlay-black2-6:before {
   background-color: #222;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -11782,7 +11795,7 @@ table p {
 }
 .hover-effect.effect-style1 .effect-content:before,
 .hover-effect.effect-style1 .effect-content:after {
-  content: "";
+  content: '';
   opacity: 0;
   position: absolute;
   z-index: 2;
@@ -11798,7 +11811,7 @@ table p {
 .hover-effect.effect-style1 .effect-content:before {
   top: 40px;
   right: 20px;
-  bottom: 40px;
+  sneakerstom: 40px;
   left: 20px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -11810,7 +11823,7 @@ table p {
 .hover-effect.effect-style1 .effect-content:after {
   top: 20px;
   right: 40px;
-  bottom: 20px;
+  sneakerstom: 20px;
   left: 40px;
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
@@ -11887,7 +11900,7 @@ table p {
   margin-bottom: 7px;
   text-transform: uppercase;
   color: #333333;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .featured-item .content .inner-content .inner-content-text {
   display: -webkit-box;
@@ -11905,20 +11918,20 @@ table p {
 }
 
 .featured-style2 .featured-item .content .inner-content .title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 .featured-style2 .featured-item .content .inner-content p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .featured-style3 .featured-item .content .inner-content .title {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
 .featured-style3 .featured-item .content .inner-content p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media (max-width: 576px) {
   .featured-area .row {
@@ -12305,7 +12318,7 @@ table p {
   .category-area.category-slider-area {
     padding: 25px 0px !important;
   }
-  .product-area.new-product-area{
+  .product-area.new-product-area {
     padding: 12px 0 0px !important;
   }
 }
@@ -12334,7 +12347,7 @@ table p {
 }
 .product-area.outfit-product-area .section-title .title {
   color: #333;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: 400;
   letter-spacing: -1px;
@@ -12473,8 +12486,8 @@ table p {
 }
 .product-area.product-style1-area.style-one:before {
   background-color: #eee;
-  bottom: 0;
-  content: "";
+  sneakerstom: 0;
+  content: '';
   height: 242px;
   left: 0;
   position: absolute;
@@ -12487,8 +12500,8 @@ table p {
 }
 .product-area.product-style1-area.style-two:before {
   background-color: #fff;
-  bottom: 0;
-  content: "";
+  sneakerstom: 0;
+  content: '';
   height: 174px;
   left: 0;
   position: absolute;
@@ -12515,12 +12528,12 @@ table p {
   }
 }
 .product-area.related-products-area .container {
-  padding: 0;
+  padding: 8px;
 }
 .product-area.related-products-area .section-title {
   border-top: 1px solid #ebebeb;
   padding: 30px 0 30px;
-  margin: 0;
+  margin-top: 30px;
 }
 @media only screen and (max-width: 991px) {
   .product-area.related-products-area .section-title {
@@ -12529,12 +12542,13 @@ table p {
 }
 @media only screen and (max-width: 991px) {
   .product-area.related-products-area .section-title {
-    padding: 30px 0 30px;
+    padding: 12px 0 12px;
   }
 }
 .product-area.related-products-area .section-title .title {
   font-size: 28px;
   letter-spacing: -0.56px;
+  margin-bottom: 5px;
 }
 .product-area.product-description-review-area {
   padding-top: 15px;
@@ -12613,7 +12627,7 @@ table p {
 .product-area.shop-fullwidth-area-style2
   .container
   .row-gutter-119
-  [class*="col-"] {
+  [class*='col-'] {
   margin: 0;
   padding-left: 59.5px;
   padding-right: 59.5px;
@@ -12622,7 +12636,7 @@ table p {
   .product-area.shop-fullwidth-area-style2
     .container
     .row-gutter-119
-    [class*="col-"] {
+    [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -12737,18 +12751,18 @@ table p {
 }
 
 .product-item {
-  margin-bottom: 25px;
+  /* margin: 25px; */
 }
 .product-item .product-thumb {
-  margin-bottom: 14px;
-  overflow: hidden;
+  margin: 14px 0;
+  /* overflow: hidden; */
   position: relative;
-  max-height: 370px;
+  /* max-height: 370px; */
 }
 .product-item .product-thumb img {
   width: 100%;
   height: unset;
-  aspect-ratio: 1080 / 1920;
+  aspect-ratio: 1080 / 1350;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -12796,7 +12810,7 @@ table p {
   background-color: #f5832f;
   border-radius: 20px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 12px;
   left: auto;
@@ -12819,7 +12833,7 @@ table p {
   top: 70px;
 }
 .product-item .product-thumb .product-action {
-  bottom: calc(50% - 20px);
+  sneakerstom: calc(50% - 20px);
   position: absolute;
   text-align: center;
   width: 100%;
@@ -12849,26 +12863,28 @@ table p {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+  appearance: none;
+  padding: 0;
 }
 .product-item .product-thumb .product-action button i {
   margin: 0;
 }
-.product-item .product-thumb .product-action button[class*="action-"] {
+.product-item .product-thumb .product-action button[class*='action-'] {
   -webkit-transition-delay: 100ms;
   transition-delay: 100ms;
 }
-.product-item .product-thumb .product-action button[class*="action-"] + a {
+.product-item .product-thumb .product-action button[class*='action-'] + a {
   -webkit-transition-delay: 150ms;
   transition-delay: 150ms;
 }
-.product-item .product-thumb .product-action button[class*="action-"] + a + a {
+.product-item .product-thumb .product-action button[class*='action-'] + a + a {
   -webkit-transition-delay: 200ms;
   transition-delay: 200ms;
 }
 .product-item
   .product-thumb
   .product-action
-  button[class*="action-"]
+  button[class*='action-']
   + a
   + a
   + a {
@@ -12880,10 +12896,10 @@ table p {
   color: #fff;
 }
 .product-item .product-thumb .product-action.action-style2 {
-  bottom: calc(50% - 55px);
+  sneakerstom: calc(50% - 55px);
 }
 .product-item .product-thumb .product-action.action-style3 {
-  bottom: -80px;
+  sneakerstom: -80px;
 }
 .product-item .product-thumb .product-action.action-style3 a {
   background-color: #333;
@@ -12893,7 +12909,7 @@ table p {
   background-color: #a64637;
 }
 .product-item .product-thumb .product-action-info {
-  bottom: -100%;
+  sneakerstom: -100%;
   left: 0;
   position: absolute;
   width: 100%;
@@ -12934,7 +12950,7 @@ table p {
   line-height: 1.2;
 }
 .product-item .product-thumb .product-action-info.action-info-style2 {
-  bottom: calc(50% - 20px);
+  sneakerstom: calc(50% - 20px);
   opacity: 0;
   transform: translate(0, 40px);
   -webkit-transform: translate(0, 40px);
@@ -13072,13 +13088,13 @@ table p {
   -o-transform: translate(0, 0);
 }
 .product-item:hover .product-thumb .product-action.action-style3 {
-  bottom: 0;
+  sneakerstom: 0;
 }
 .product-item:hover .product-thumb .product-action-info {
-  bottom: 0;
+  sneakerstom: 0;
 }
 .product-item:hover .product-thumb .product-action-info.action-info-style2 {
-  bottom: calc(50% - 0px);
+  sneakerstom: calc(50% - 0px);
   opacity: 1;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
@@ -13201,7 +13217,7 @@ table p {
   margin-top: 14px;
 }
 .product-item-list .countdown-content .countdown-timer {
-  bottom: auto;
+  sneakerstom: auto;
   display: inline-block;
   left: auto;
   margin-bottom: 0;
@@ -13357,7 +13373,7 @@ table p {
   .content-inner
   .prices
   .price {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .product-items-style3 .product-item {
@@ -13369,11 +13385,11 @@ table p {
   background-color: #fff;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  content: "";
+  content: '';
   position: absolute;
   left: -30px;
   right: -30px;
-  bottom: -35px;
+  sneakerstom: -35px;
   top: -30px;
   opacity: 0;
   pointer-events: none;
@@ -13388,7 +13404,7 @@ table p {
   .product-items-style3 .product-item:before {
     left: -15px;
     right: -15px;
-    bottom: -15px;
+    sneakerstom: -15px;
     top: -15px;
   }
 }
@@ -13449,6 +13465,7 @@ table p {
 
 .product-items-style4 .product-item {
   margin-bottom: 20px;
+  margin-top: 16px;
 }
 @media only screen and (max-width: 1399px) {
   .product-items-style4 .product-item {
@@ -13765,7 +13782,7 @@ table p {
   }
 }
 .category-area.category-style8-area .section-title .title {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: -1.4px;
@@ -13790,7 +13807,7 @@ table p {
   }
 }
 .category-area.category-style8-area .section-title .title-stroke {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: -1.4px;
@@ -13820,7 +13837,7 @@ table p {
 }
 .category-area.category-style8-area .section-title p {
   color: #666;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 20px;
   line-height: 1.8;
   margin: 80px 0;
@@ -13838,7 +13855,7 @@ table p {
 }
 .category-area.category-style8-area .section-title .btn-theme {
   background-color: #222;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 18px;
   letter-spacing: 1.8px;
   line-height: 30px;
@@ -14186,7 +14203,7 @@ table p {
   }
 }
 @media only screen and (max-width: 1199px) {
-  .category-area.category-arrivals-area .row-gutter-80 [class*="col-"] {
+  .category-area.category-arrivals-area .row-gutter-80 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -15187,7 +15204,7 @@ table p {
   .title {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: capitalize;
 }
 .category-area.product-collection-area
@@ -15315,7 +15332,7 @@ table p {
   .title {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: capitalize;
 }
 .category-area.product-collection-area-style1
@@ -15361,7 +15378,7 @@ table p {
 }
 .category-item .thumb:after {
   background-color: #765b48;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.1;
@@ -15396,7 +15413,7 @@ table p {
 .category-item .content .inner-content .title {
   color: #fff;
   font-size: 32px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   transform: translate(0, 140%);
   -webkit-transform: translate(0, 140%);
@@ -15516,7 +15533,7 @@ table p {
   top: 0;
   width: 100%;
   height: 100%;
-  content: "";
+  content: '';
   opacity: 0.6;
   -webkit-transition: opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);
   transition: opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);
@@ -15592,8 +15609,8 @@ table p {
 }
 .category-items-style3 .align-right-style:before {
   background-color: rgba(175, 225, 213, 0.34);
-  bottom: 60px;
-  content: "";
+  sneakerstom: 60px;
+  content: '';
   height: 500px;
   position: absolute;
   right: 0;
@@ -15607,7 +15624,7 @@ table p {
 }
 @media only screen and (max-width: 991px) {
   .category-items-style3 .align-right-style:before {
-    bottom: 60px;
+    sneakerstom: 60px;
     height: 300px;
   }
 }
@@ -15642,7 +15659,7 @@ table p {
 }
 .category-items-style3 .category-item .thumb:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0;
@@ -15667,7 +15684,7 @@ table p {
 }
 .category-items-style3 .category-item .content .title {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 0;
@@ -15723,7 +15740,7 @@ table p {
 }
 .category-items-style4 .category-item .thumb:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0;
@@ -15748,7 +15765,7 @@ table p {
 }
 .category-items-style4 .category-item .content .title {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 0;
@@ -15796,7 +15813,7 @@ table p {
 }
 .category-items-style5 .category-item .thumb:after {
   background-color: #222;
-  content: "";
+  content: '';
   opacity: 0;
   position: absolute;
 }
@@ -15880,7 +15897,7 @@ table p {
 }
 .category-items-style6 .category-item .thumb:before {
   background-color: #222;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.5;
@@ -15905,7 +15922,7 @@ table p {
 }
 .category-items-style6 .category-item .content .title {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 26px;
   font-weight: 400;
   letter-spacing: 0;
@@ -15965,7 +15982,7 @@ table p {
 }
 .category-items-style7 .category-item .thumb:before {
   background-color: #000;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0;
@@ -16005,7 +16022,7 @@ table p {
   width: 100%;
 }
 .category-items-style7 .category-item.item-three {
-  bottom: 0;
+  sneakerstom: 0;
   max-width: 32%;
   position: absolute;
   right: 60%;
@@ -16029,7 +16046,7 @@ table p {
   color: #333;
   font-size: 36px;
   font-weight: 500;
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
   letter-spacing: -0.72px;
   margin-top: 30px;
   -webkit-transform: none;
@@ -16052,7 +16069,7 @@ table p {
   color: #444;
   font-size: 20px;
   font-weight: 300;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 @media only screen and (max-width: 1399px) {
   .category-items-style8 .category-item .content .inner-content p {
@@ -16090,7 +16107,7 @@ table p {
 }
 .category-items-style9 .category-item .content {
   top: auto;
-  bottom: 0;
+  sneakerstom: 0;
 }
 .category-items-style9 .category-item .content .title {
   color: #fff;
@@ -16115,7 +16132,7 @@ table p {
 }
 .category-items-style10 .category-item .thumb:after {
   background-color: #000;
-  content: "";
+  content: '';
   opacity: 0;
   pointer-events: none;
 }
@@ -16155,7 +16172,7 @@ table p {
   background-color: transparent;
   font-size: 24px;
   font-weight: 300;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   line-height: 23px;
   padding: 0;
   text-transform: uppercase;
@@ -16185,7 +16202,7 @@ table p {
 }
 .category-items-style11 .category-item .thumb:after {
   background-color: #000;
-  content: "";
+  content: '';
   opacity: 0;
 }
 .category-items-style11 .category-item .thumb a img {
@@ -16215,7 +16232,7 @@ table p {
   color: #333;
   font-size: 50px;
   font-weight: 500;
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
   letter-spacing: -1px;
   margin-top: 40px;
   -webkit-transform: none;
@@ -16238,7 +16255,7 @@ table p {
   color: #333;
   font-size: 20px;
   font-weight: 300;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   margin-bottom: 25px;
 }
 @media only screen and (max-width: 1199px) {
@@ -16253,7 +16270,7 @@ table p {
   color: #333;
   padding: 0;
   font-size: 20px;
-  font-family: "Prompt", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
   line-height: 1;
   text-transform: uppercase;
@@ -16377,7 +16394,7 @@ table p {
 
 .category-items-style13 .category-item .thumb:after {
   background-color: #000;
-  content: "";
+  content: '';
 }
 .category-items-style13 .category-item .thumb img {
   -webkit-transform: none;
@@ -16413,7 +16430,7 @@ table p {
 }
 .category-items-style14 .category-item .content .title {
   color: #fff;
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 60px;
   line-height: 1;
   transform: translate(0, -30px);
@@ -16507,7 +16524,7 @@ table p {
 }
 .category-items-style15 .category-item .thumb:before {
   background-color: #222;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0;
@@ -16532,7 +16549,7 @@ table p {
 }
 .category-items-style15 .category-item .content .title {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 600;
   letter-spacing: 0;
@@ -16587,7 +16604,7 @@ table p {
 
 .category-masonry-style1 .masonry-item {
   margin-bottom: 6px;
-  width: 24.987%;
+  width: 24.997%;
 }
 @media only screen and (max-width: 991px) {
   .category-masonry-style1 .masonry-item {
@@ -16630,7 +16647,7 @@ table p {
   margin-right: -3px;
   margin-left: -3px;
 }
-.category-masonry-style1.row-gutter-6 [class*="masonry-"] {
+.category-masonry-style1.row-gutter-6 [class*='masonry-'] {
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -16670,8 +16687,8 @@ table p {
 .category-slider-content
   .category-shop-slider-container
   .swiper-button-next:before {
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
 }
 .category-slider-content
   .category-shop-slider-container
@@ -16806,7 +16823,7 @@ table p {
 }
 .collection-area.collection-winter-area .section-title .title span:before {
   background-color: #a64637;
-  content: "";
+  content: '';
   height: 1px;
   position: absolute;
   right: calc(100% + 10px);
@@ -16931,8 +16948,8 @@ table p {
   transform: scale(1);
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
   transition: 10s;
   -webkit-transition: 10s;
   -moz-transition: 10s;
@@ -16954,8 +16971,8 @@ table p {
   width: 100%;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
 }
 @media only screen and (max-width: 1399px) {
   .collection-slider-content
@@ -17109,8 +17126,8 @@ table p {
 .collection-slider-content
   .collection-slider-container
   .swiper-button-next:before {
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   font-size: 36px;
 }
 @media only screen and (max-width: 767px) {
@@ -17148,14 +17165,14 @@ table p {
     left: auto;
     right: 82px;
     color: #c4c4c4;
-    bottom: 0;
+    sneakerstom: 0;
     top: auto;
   }
 }
 .collection-slider-content
   .collection-slider-container
   .swiper-button-prev:before {
-  content: "";
+  content: '';
 }
 .collection-slider-content .collection-slider-container .swiper-button-next {
   color: #c4c4c4;
@@ -17165,7 +17182,7 @@ table p {
 @media (max-width: 1599px) {
   .collection-slider-content .collection-slider-container .swiper-button-next {
     top: auto;
-    bottom: 0;
+    sneakerstom: 0;
     left: auto;
     right: 30px;
   }
@@ -17173,7 +17190,7 @@ table p {
 .collection-slider-content
   .collection-slider-container
   .swiper-button-next:before {
-  content: "";
+  content: '';
 }
 
 .wishlist-item {
@@ -17232,7 +17249,7 @@ table p {
   -o-transform: translate(-50%, -50%);
 }
 .wishlist-item .wishlist-thumb .wishlist-action {
-  bottom: 20px;
+  sneakerstom: 20px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -17272,7 +17289,7 @@ table p {
 }
 .wishlist-item .wishlist-info .title {
   color: #6d6d6d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
@@ -17429,7 +17446,7 @@ table p {
 .product-tab-content
   .nav.nav-tabs-style1.nav-tabs.nav-tabs-style
   .nav-item:last-child {
-  margin-bottom: 0;
+  /* col-sm-6 col-lg-3 col-6: 0; */
 }
 
 .single-product-info {
@@ -17447,7 +17464,8 @@ table p {
   font-weight: 600;
   letter-spacing: -0.56px;
   line-height: 1.2;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding-bottom: 7px;
 }
 .single-product-info .product-rating {
   display: -webkit-box;
@@ -17513,7 +17531,7 @@ table p {
   margin-right: 5px;
 }
 .single-product-info .product-rating .review span:before {
-  content: "";
+  content: '';
   font-family: LaStudioIcons;
 }
 .single-product-info .prices {
@@ -17536,8 +17554,8 @@ table p {
 }
 .single-product-info .product-sku {
   border-top: 1px solid #ebebeb;
-  font-size: 14px;
-  padding-top: 10px;
+  font-size: 16px;
+  padding-top: 5px;
   margin-bottom: 5px;
 }
 .single-product-info .product-category {
@@ -17557,7 +17575,7 @@ table p {
 }
 .single-product-info .widget .title {
   color: #444;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
@@ -17665,7 +17683,7 @@ table p {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background-image: url("../img/icons/select-arrow.html");
+  background-image: url('../img/icons/select-arrow.html');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -17676,8 +17694,7 @@ table p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 10px;
-  margin-top: 17px;
+  margin: 10px 0;
 }
 .single-product-info .product-action-size .title {
   color: #444;
@@ -17750,7 +17767,7 @@ table p {
 }
 .single-product-info .product-action-color ul li.active:before {
   color: #fff;
-  content: "";
+  content: '';
   font-family: IcoFont;
   font-size: 20px;
   position: absolute;
@@ -17765,7 +17782,7 @@ table p {
   position: absolute;
   left: 43%;
   top: -10%;
-  content: "";
+  content: '';
   color: red;
   font-size: 40px;
   text-align: center;
@@ -17869,7 +17886,7 @@ table p {
   margin-top: 5px;
 }
 .single-product-info .countdown-content .countdown-timer {
-  bottom: auto;
+  sneakerstom: auto;
   left: auto;
   position: relative;
 }
@@ -17969,7 +17986,7 @@ table p {
 .single-product-info .quick-product-action .action-top .btn-theme:hover {
   background-color: #5c665d;
 }
-.single-product-info .quick-product-action .action-bottom .btn.btn-black {
+.single-product-info .quick-product-action .action-sneakerstom .btn.btn-black {
   border: 1px solid #ededed;
   border-radius: 0px;
   color: #333;
@@ -17985,11 +18002,14 @@ table p {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-.single-product-info .quick-product-action .action-bottom .btn.btn-black:hover {
+.single-product-info
+  .quick-product-action
+  .action-sneakerstom
+  .btn.btn-black:hover {
   background-color: #5c665d;
   color: #fff;
 }
-.single-product-info .quick-product-action .action-bottom a {
+.single-product-info .quick-product-action .action-sneakerstom a {
   color: #333;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -18005,14 +18025,14 @@ table p {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-.single-product-info .quick-product-action .action-bottom a i {
+.single-product-info .quick-product-action .action-sneakerstom a i {
   font-size: 14px;
   margin-right: 10px;
 }
-.single-product-info .quick-product-action .action-bottom a:hover {
+.single-product-info .quick-product-action .action-sneakerstom a:hover {
   color: #5c665d;
 }
-.single-product-info .quick-product-action .action-bottom .btn-buy-amazon {
+.single-product-info .quick-product-action .action-sneakerstom .btn-buy-amazon {
   border: 1px solid #ededed;
   color: #333;
   display: inline-block;
@@ -18023,7 +18043,7 @@ table p {
 }
 .single-product-info
   .quick-product-action
-  .action-bottom
+  .action-sneakerstom
   .btn-buy-amazon:hover {
   background-color: #5c665d;
   border-color: #5c665d;
@@ -18140,7 +18160,7 @@ table p {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -18162,7 +18182,7 @@ table p {
   .content
   .price {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #444;
   margin-bottom: 0;
 }
@@ -18183,7 +18203,7 @@ table p {
   .quick-product-quantity
   .quantity-list-item
   .product-stock:before {
-  content: "";
+  content: '';
   font-family: LaStudioIcons;
   width: 15px;
   height: 15px;
@@ -18352,7 +18372,7 @@ table p {
   left: 0;
   -webkit-transform: none;
   transform: none;
-  bottom: 0;
+  sneakerstom: 0;
   top: 0;
 }
 .single-product-info.product-info-countdown
@@ -18402,8 +18422,7 @@ table p {
   .single-product-slider .single-product-thumb {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 15px;
-    height: 600px;
+    margin-bottom: 10px;
     overflow: hidden;
   }
 }
@@ -18416,7 +18435,7 @@ table p {
   position: relative;
   width: 100%;
   background-color: #e9eada;
-  height: 546px;
+  /* height: 546px; */
   display: flex !important;
   align-items: center;
   justify-content: center;
@@ -18425,6 +18444,7 @@ table p {
 .single-product-slider .single-product-thumb .thumb-item img {
   cursor: pointer;
   width: 100%;
+  aspect-ratio: 1080/1350;
   /* height: 100%; */
 }
 .single-product-slider .single-product-thumb .thumb-item .ribbons .ribbon {
@@ -18447,7 +18467,7 @@ table p {
   pointer-events: none;
 }
 .single-product-slider .single-product-thumb .product-gallery-actions {
-  bottom: 29px;
+  sneakerstom: 29px;
   position: absolute;
   right: 34px;
 }
@@ -18471,6 +18491,29 @@ table p {
   -o-transition: all 0.3s ease-in-out;
 }
 .single-product-slider .single-product-thumb .product-gallery-actions a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.single-product-slider .single-product-thumb .product-gallery-actions i {
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #333;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 50%;
+  display: block;
+  margin: 5px;
+  line-height: 52px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.single-product-slider .single-product-thumb .product-gallery-actions i:hover {
   background-color: #333;
   color: #fff;
 }
@@ -18513,7 +18556,7 @@ table p {
 }
 .single-product-slider .single-product-nav .nav-item:before {
   border: 1px solid #5c665d;
-  content: "";
+  content: '';
   height: 100%;
   opacity: 0;
   left: 0;
@@ -18533,10 +18576,22 @@ table p {
   border: none;
   width: 130px;
 }
+.single-product-nav button {
+  display: none !important;
+}
+.single-product-nav .slick-list {
+  height: 670px !important;
+}
 @media only screen and (max-width: 991px) {
   .single-product-slider .single-product-nav .slick-slide {
     max-width: 130px !important;
     width: 100% !important;
+  }
+  .single-product-nav .slick-list {
+    height: auto !important;
+  }
+  .product-dec-slider-left {
+    display: none;
   }
 }
 @media only screen and (max-width: 479.98px) {
@@ -18577,6 +18632,7 @@ table p {
 @media only screen and (max-width: 575px) {
   .single-product-slider .single-product-nav .slick-track .slick-slide {
     padding: 0;
+    margin: 0 5px;
   }
 }
 .single-product-slider .product-dec-slider-right {
@@ -18614,7 +18670,7 @@ table p {
   color: #a8a8a8;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 22px 27px 0;
   position: relative;
   line-height: 1;
@@ -18662,7 +18718,7 @@ table p {
   .nav-item
   .nav-link:after {
   background-color: #5c665d;
-  content: "";
+  content: '';
   position: absolute;
   opacity: 0;
   width: 50px;
@@ -19076,7 +19132,7 @@ table p {
   color: #444;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .product-description-review
   .tab-content
@@ -19098,7 +19154,7 @@ table p {
   color: #444;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 7px;
 }
 .product-description-review
@@ -19131,7 +19187,7 @@ table p {
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #5c665d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 600;
   padding-left: 0;
@@ -19142,7 +19198,7 @@ table p {
   .accordion-item
   .accordion-header
   .accordion-button:before {
-  content: "-";
+  content: '-';
   font-size: 30px;
   font-weight: 400;
   position: absolute;
@@ -19169,7 +19225,7 @@ table p {
   .accordion-item
   .accordion-header
   .accordion-button.collapsed:before {
-  content: "+";
+  content: '+';
 }
 .product-description-review.style-two
   .accordion
@@ -19215,7 +19271,7 @@ table p {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 10px;
-  border: 1px solid #ebebeb;
+  border: 1px solid #c4c4c4;
   padding: 0px 7px;
 }
 @media only screen and (max-width: 767px) {
@@ -19248,6 +19304,7 @@ table p {
   color: #444;
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 0;
 }
 .shop-toolbar-wrap .product-sorting-menu {
   cursor: pointer;
@@ -19263,7 +19320,27 @@ table p {
 }
 @media only screen and (max-width: 575px) {
   .shop-toolbar-wrap .product-sorting-menu .current {
-    padding: 12px 8px;
+    padding: 0px 8px;
+  }
+  .shop-toolbar-wrap {
+    padding: 14px 0;
+    align-items: center;
+    padding-left: 12.9px !important;
+  }
+  .inner-left-padding .tab-content {
+    padding: 0 15px;
+  }
+  .product-area .col-sm-6:nth-child(2n + 1) {
+    padding-right: 7.5px;
+  }
+  .product-area .col-sm-6:nth-child(2n) {
+    padding-left: 7.5px;
+  }
+  .product-area .col-6:nth-child(2n + 1) {
+    padding-right: 7.5px;
+  }
+  .product-area .col-6:nth-child(2n) {
+    padding-left: 7.5px;
   }
 }
 @media only screen and (max-width: 479.98px) {
@@ -19478,7 +19555,7 @@ table p {
 }
 .shop-sidebar-area .widget .widget-color-menu ul li:before {
   color: #fff;
-  content: "";
+  content: '';
   font-family: LaStudioIcons;
   position: absolute;
   opacity: 0;
@@ -19513,7 +19590,7 @@ table p {
   border: 1px solid #a8a8a8;
   border-radius: 0;
   color: transparent;
-  content: "";
+  content: '';
   display: inline-block;
   height: 15px;
   margin-right: 10px;
@@ -19522,7 +19599,7 @@ table p {
   vertical-align: -2px;
 }
 .shop-sidebar-area .widget .widget-size-menu ul li a:after {
-  content: "";
+  content: '';
   font-family: LaStudioIcons;
   position: absolute;
   left: 0;
@@ -19831,7 +19908,7 @@ table p {
   font-weight: 700;
   line-height: 1.8;
   padding: 15px;
-  vertical-align: bottom;
+  vertical-align: sneakerstom;
   min-width: 268px;
 }
 .compare-table table tbody .compare-tr-info td {
@@ -19925,7 +20002,7 @@ table p {
   color: #333;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.8;
   margin-bottom: 8px;
 }
@@ -20073,12 +20150,12 @@ table p {
 }
 .cart-payment .culculate-shipping .title:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 3px;
   width: 50px;
   background-color: #eee;
   left: 0;
-  bottom: 0;
+  sneakerstom: 0;
 }
 .cart-payment .culculate-shipping .form-group .form-control {
   background: transparent;
@@ -20098,7 +20175,7 @@ table p {
   padding: 30px 30px 23px;
 }
 .cart-payment .cart-subtotal .title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.28px;
@@ -20157,7 +20234,7 @@ table p {
 }
 .cart-payment .cart-subtotal table tbody th {
   color: #333;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.28px;
@@ -20205,7 +20282,7 @@ table p {
 .product-information-wrapper:before {
   border-left: 1px solid #e1e1e1;
   background-color: #fafafa;
-  content: "";
+  content: '';
   position: absolute;
   width: calc(50% - 96px);
   height: 100vh;
@@ -20291,8 +20368,8 @@ table p {
   .logged-in-information
   .thumb:before {
   background-repeat: no-repeat;
-  background-image: url("../img/photos/gravatar.svg");
-  content: "";
+  background-image: url('../img/photos/gravatar.svg');
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
@@ -20399,7 +20476,7 @@ table p {
   .form-floating
   .field-caret {
   display: block;
-  background-image: url("../img/icons/1.png");
+  background-image: url('../img/icons/1.png');
   background-repeat: no-repeat;
   background-position: center;
   border-left: 1px rgba(179, 179, 179, 0.5) solid;
@@ -20650,7 +20727,7 @@ table p {
   margin-right: 0;
   right: calc(50% - 32px);
   min-width: 572px;
-  bottom: 0;
+  sneakerstom: 0;
 }
 @media only screen and (max-width: 1199px) {
   .edit-checkout-footer {
@@ -20681,7 +20758,7 @@ table p {
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
+  sneakerstom: 0;
   opacity: 0;
   visibility: hidden;
   left: 0;
@@ -20713,7 +20790,7 @@ table p {
   top: 0;
   opacity: 0.5;
   right: 0;
-  bottom: 0;
+  sneakerstom: 0;
   left: 0;
   z-index: 1040;
   background-color: #000;
@@ -20805,7 +20882,7 @@ table p {
 }
 
 .countdown-timer {
-  bottom: 23px;
+  sneakerstom: 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20915,7 +20992,7 @@ table p {
 .shop-checkout-area .shop-checkout-coupon .card h6 {
   background-color: #eeeff2;
   color: #444;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
@@ -20924,8 +21001,8 @@ table p {
 }
 .shop-checkout-area .shop-checkout-coupon .card h6:before {
   color: #6dde6d;
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   font-size: 26px;
   top: calc(50% - 2px);
   left: 25px;
@@ -21057,7 +21134,7 @@ table p {
 .shop-checkout-area .shop-return-login .card h6 {
   background-color: #eeeff2;
   color: #444;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
@@ -21066,8 +21143,8 @@ table p {
 }
 .shop-checkout-area .shop-return-login .card h6:before {
   color: #6dde6d;
-  content: "";
-  font-family: "LaStudioIcons";
+  content: '';
+  font-family: 'LaStudioIcons';
   font-size: 26px;
   top: calc(50% - 2px);
   left: 25px;
@@ -21547,7 +21624,7 @@ table p {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
   margin-bottom: 0;
   padding-left: 25px;
@@ -21562,7 +21639,7 @@ table p {
   width: 16px;
   height: 16px;
   border: 1px solid #ccc;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   border-radius: 50%;
@@ -21577,7 +21654,7 @@ table p {
   .shop-payment-method
   .card
   .card-header
-  .title[aria-expanded="true"]:before {
+  .title[aria-expanded='true']:before {
   border: 5px solid #2196f3;
 }
 .shop-checkout-area
@@ -21771,11 +21848,17 @@ table p {
     line-height: 1.2;
     margin-bottom: 3px;
   }
-  .blog-area.blog-about-area .post-items .post-item .content .inner-content .title {
+  .blog-area.blog-about-area
+    .post-items
+    .post-item
+    .content
+    .inner-content
+    .title {
     font-size: 17px !important;
   }
-  .footer-logo-area h4{
+  .footer-logo-area h4 {
     font-size: 19px;
+    margin-bottom: 8px;
   }
 }
 .blog-area.blog-grid-area .post-item .content .inner-content .title a {
@@ -21951,7 +22034,7 @@ table p {
   .post-item
   .text-rotate {
   color: #999999;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 22px;
   left: -50px;
   letter-spacing: 6.6px;
@@ -21988,7 +22071,7 @@ table p {
 }
 .blog-area.blog-style1-area .container-fluid .col-left .btn-theme.btn-top {
   background-color: #222;
-  bottom: 0;
+  sneakerstom: 0;
   font-size: 18px;
   left: 0;
   letter-spacing: 1.8px;
@@ -22063,7 +22146,7 @@ table p {
   .post-item
   .text-rotate {
   color: #999999;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-size: 22px;
   left: -50px;
   letter-spacing: 6.6px;
@@ -22203,7 +22286,7 @@ table p {
 }
 
 .blog-area.blog-about-area .container .section-title {
-  margin-bottom: 42px;
+  margin: 42px;
 }
 
 .blog-area.blog-about-area .container .section-title .title {
@@ -22458,7 +22541,7 @@ table p {
 }
 
 .post-slider-container .swiper-pagination {
-  bottom: auto;
+  sneakerstom: auto;
   position: relative;
   margin-top: 56px;
 }
@@ -22558,11 +22641,11 @@ table p {
 .sidebar-area .widget-search-box form .form-input-item {
   color: #333;
   margin-bottom: 27px;
-  margin-top: 17px;
+  margin-top: 0px;
   position: relative;
 }
 .sidebar-area .widget-search-box form .form-input-item input {
-  border: 1px solid #ebebeb;
+  border: 1px solid #cccccc;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
@@ -22640,7 +22723,7 @@ table p {
   position: relative;
 }
 .sidebar-area .widget-custom-menu ul .has-sub a:not(.collapsed):before {
-  content: "";
+  content: '';
 }
 .sidebar-area .widget-custom-menu ul .has-sub .collapsed {
   color: #444;
@@ -22716,7 +22799,7 @@ table p {
   color: #333;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.4;
   margin-bottom: 5px;
 }
@@ -22739,7 +22822,7 @@ table p {
 .sidebar-area .widget-blog-post ul li:last-child {
   border: none;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 .sidebar-area .widget-gallery {
   margin-bottom: 68px;
@@ -22751,7 +22834,7 @@ table p {
 }
 .sidebar-area .widget-gallery .gallery-item:before {
   background-color: rgba(84, 89, 95, 0.6);
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -22800,7 +22883,7 @@ table p {
 }
 .sidebar-area .widget-banner a:before {
   background-color: #333;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -22902,7 +22985,7 @@ table p {
   position: relative;
 }
 .post-details-content .post-details-body .content .blockquote-area2:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22936,7 +23019,7 @@ table p {
 .post-details-content .post-details-body .content .blockquote-area2 h5 {
   font-size: 16px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   margin: 0;
 }
@@ -22946,7 +23029,7 @@ table p {
   margin-bottom: 32px;
 }
 .post-details-content .post-details-body .content .video-thumb:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -22974,7 +23057,7 @@ table p {
   letter-spacing: normal;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  content: "";
+  content: '';
   position: absolute;
   width: 68px;
   height: 68px;
@@ -23221,7 +23304,7 @@ table p {
   .comments-form-content
   .form-group
   .comment-form-cookies
-  input[type="checkbox"] {
+  input[type='checkbox'] {
   background-color: #fff;
   border: 1px solid #bbb;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -23571,7 +23654,7 @@ table p {
   padding: 0;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: -0.4px;
 }
 .account-login-area .login-top .login-form-nav .nav-tabs .nav-link i {
@@ -23588,7 +23671,7 @@ table p {
   font-weight: 500;
   padding: 0;
   letter-spacing: -0.48px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 .account-login-area .login-top .login-form-nav .nav-tabs .nav-link.active i {
@@ -23635,7 +23718,7 @@ table p {
   color: #222;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   margin: 0 0 11px;
 }
@@ -23648,45 +23731,49 @@ table p {
 .contact-info-content .align-top .contact-info-item.info-item2 {
   border-top: 1px solid #c4c4c4;
 }
-.contact-info-content .align-bottom {
+.contact-info-content .align-sneakerstom {
   border-top: 1px solid #c4c4c4;
   padding-top: 40px;
 }
-.contact-info-content .align-bottom .contact-info-item {
+.contact-info-content .align-sneakerstom .contact-info-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.contact-info-content .align-bottom .contact-info-item .icon {
+.contact-info-content .align-sneakerstom .contact-info-item .icon {
   margin-right: 5px;
   position: relative;
   top: 2px;
 }
-.contact-info-content .align-bottom .contact-info-item .icon i {
+.contact-info-content .align-sneakerstom .contact-info-item .icon i {
   color: #5c665d;
   font-size: 20px;
   margin-right: 10px;
 }
-.contact-info-content .align-bottom .contact-info-item .content h4 {
+.contact-info-content .align-sneakerstom .contact-info-item .content h4 {
   color: #222;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   margin: 0 0 11px;
 }
-.contact-info-content .align-bottom .contact-info-item .content p {
+.contact-info-content .align-sneakerstom .contact-info-item .content p {
   color: #666;
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 10px;
 }
-.contact-info-content .align-bottom .contact-info-item .content .social-widget {
+.contact-info-content
+  .align-sneakerstom
+  .contact-info-item
+  .content
+  .social-widget {
   line-height: 1;
   margin-top: 20px;
 }
 .contact-info-content
-  .align-bottom
+  .align-sneakerstom
   .contact-info-item
   .content
   .social-widget
@@ -23696,7 +23783,7 @@ table p {
   margin-right: 35px;
 }
 .contact-info-content
-  .align-bottom
+  .align-sneakerstom
   .contact-info-item
   .content
   .social-widget
@@ -23704,14 +23791,14 @@ table p {
   color: #5c665d;
 }
 .contact-info-content
-  .align-bottom
+  .align-sneakerstom
   .contact-info-item
   .content
   .social-widget
   a:last-child {
   margin-right: 0;
 }
-.contact-info-content .align-bottom .contact-info-item.social-icons-item {
+.contact-info-content .align-sneakerstom .contact-info-item.social-icons-item {
   margin-left: 5px;
   margin-top: 10px;
 }
@@ -23728,6 +23815,7 @@ table p {
 @media only screen and (max-width: 575px) {
   .contact-map-area iframe {
     height: 400px !important;
+    padding-bottom: 15px;
   }
 }
 
@@ -23789,7 +23877,7 @@ table p {
   border-bottom: 1px solid #999999;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 39px;
   padding-bottom: 19px;
 }
@@ -23978,36 +24066,44 @@ table p {
   .nav-menu:last-child {
   margin-right: 0;
 }
-.footer-area.default-style .footer-bottom {
+.footer-area.default-style .footer-sneakerstom {
   background-color: #222;
   padding: 24px 18px 20px;
 }
-.footer-area.default-style .footer-bottom .widget-item .widget-social-icons {
+.footer-area.default-style
+  .footer-sneakerstom
+  .widget-item
+  .widget-social-icons {
   margin: auto;
   margin-right: 70px;
   text-align: center;
 }
-.footer-area.default-style .footer-bottom .widget-item .widget-social-icons a {
+.footer-area.default-style
+  .footer-sneakerstom
+  .widget-item
+  .widget-social-icons
+  a {
   color: #fff;
   font-size: 18px;
   margin-right: 60px;
 }
 .footer-area.default-style
-  .footer-bottom
+  .footer-sneakerstom
   .widget-item
   .widget-social-icons
   a:hover {
   color: #5c665d;
 }
 .footer-area.default-style
-  .footer-bottom
+  .footer-sneakerstom
   .widget-item
   .widget-social-icons
   a:last-child {
   margin-right: 0;
 }
 .footer-area.footer-style1 .footer-top {
-  border-top: 1px solid #999999;
+  /* border-top: 1px solid #999999; */
+  /* border-bottom: 1px solid #999999; */
   padding: 50px 30px;
 }
 @media only screen and (max-width: 991px) {
@@ -24017,7 +24113,7 @@ table p {
 }
 @media only screen and (max-width: 575px) {
   .footer-area.footer-style1 .footer-top {
-    padding: 42px 0;
+    padding: 20px 0;
   }
 }
 .footer-area.footer-style1 .footer-top .footer-logo-area {
@@ -24159,7 +24255,7 @@ table p {
   }
 }
 .footer-area.footer-style1 .footer-main {
-  background-color: #e9eada;
+  background-color: #fff;
   padding: 50px;
 }
 @media only screen and (max-width: 991px) {
@@ -24169,7 +24265,10 @@ table p {
 }
 @media only screen and (max-width: 767px) {
   .footer-area.footer-style1 .footer-main {
-    padding: 22px 28px 49px 26px;
+    padding: 12px 20px 20px 15px;
+  }
+  .footer-logo img {
+    margin-bottom: 10px;
   }
 }
 .footer-area.footer-style1 .footer-main .footer-logo-area a .logo-main {
@@ -24185,11 +24284,11 @@ table p {
 }
 .footer-area.footer-style1 .footer-main .widget-menu-wrap h4 {
   color: #666;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 16px;
 }
 .footer-area.footer-style1 .footer-main .widget-menu-wrap .nav-menu li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .footer-area.footer-style1 .footer-main .widget-menu-wrap .nav-menu li a {
   color: #666;
@@ -24226,15 +24325,27 @@ table p {
   margin-top: 20px;
 }
 .footer-area.footer-style1 .footer-main .widget-social-icons a {
-  color: #5c665d;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #5c665d;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  margin-right: 4px;
+}
+.widget-social-item {
+  padding-left: 10px !important;
 }
 @media only screen and (max-width: 991px) {
   .footer-area.footer-style1 .footer-main .widget-social-icons a {
-    margin-right: 18px;
+    margin-right: 7px;
+    margin-bottom: 4px;
   }
 }
 .footer-area.footer-style1 .footer-main .widget-social-icons a:hover {
-  color: #000;
+  color: #fff;
 }
 .footer-area.footer-style2 .footer-main {
   background-color: #333;
@@ -24271,14 +24382,14 @@ table p {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
   margin-bottom: 17px;
 }
 .footer-area.footer-style2 .footer-main .widget-item .widget-contact-info li a {
   color: #999999;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
   line-height: 30px;
 }
 .footer-area.footer-style2
@@ -24310,7 +24421,7 @@ table p {
   .widget-menu-wrap
   .nav-menu
   li {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -24381,6 +24492,11 @@ table p {
   .footer-area.footer-style4 .footer-main .footer-logo-area {
     text-align: left;
   }
+  .post-slider-container .swiper-pagination {
+    sneakerstom: auto;
+    position: relative;
+    margin-top: 30px;
+  }
 }
 .footer-area.footer-style4 .footer-main .footer-logo-area a .logo-main {
   width: 195px;
@@ -24394,7 +24510,7 @@ table p {
   }
 }
 .footer-area.footer-style4 .footer-main .widget-item h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0;
   margin-bottom: 15px;
 }
@@ -24547,7 +24663,7 @@ table p {
   padding: 97px 0px 90px;
 }
 .footer-area.footer-style5 .footer-main .widget-item h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0;
   margin-bottom: 15px;
 }
@@ -24842,29 +24958,36 @@ table p {
   .nav-menu:last-child {
   margin-right: 0;
 }
-.footer-area.footer-style7 .footer-bottom {
+.footer-area.footer-style7 .footer-sneakerstom {
   background-color: #222;
   padding: 24px 18px 20px;
 }
-.footer-area.footer-style7 .footer-bottom .widget-item .widget-social-icons {
+.footer-area.footer-style7
+  .footer-sneakerstom
+  .widget-item
+  .widget-social-icons {
   margin: auto;
   margin-right: 70px;
   text-align: center;
 }
-.footer-area.footer-style7 .footer-bottom .widget-item .widget-social-icons a {
+.footer-area.footer-style7
+  .footer-sneakerstom
+  .widget-item
+  .widget-social-icons
+  a {
   color: #fff;
   font-size: 18px;
   margin-right: 60px;
 }
 .footer-area.footer-style7
-  .footer-bottom
+  .footer-sneakerstom
   .widget-item
   .widget-social-icons
   a:hover {
   color: #5c665d;
 }
 .footer-area.footer-style7
-  .footer-bottom
+  .footer-sneakerstom
   .widget-item
   .widget-social-icons
   a:last-child {
@@ -24908,7 +25031,7 @@ table p {
 }
 
 .reveal-footer {
-  bottom: 0;
+  sneakerstom: 0;
   left: 0;
   position: fixed;
   width: 100%;
@@ -24934,7 +25057,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .home-two-wrapper {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
 }
 .home-two-wrapper h1,
 .home-two-wrapper h2,
@@ -24948,10 +25071,10 @@ table p {
 .home-two-wrapper .h4,
 .home-two-wrapper .h5,
 .home-two-wrapper .h6 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
 }
 .home-two-wrapper .section-title .subtitle {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
 }
 .home-two-wrapper .product-area.new-collection-product-area {
   padding: 100px 0 75px;
@@ -25210,7 +25333,7 @@ table p {
   }
 }
 .home-two-wrapper .category-item .content .inner-content .title {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Rosneakerso Condensed', sans-serif;
 }
 .home-two-wrapper .newsletter-area {
   padding: 0 0 30px;
@@ -25218,7 +25341,7 @@ table p {
 }
 .home-two-wrapper .newsletter-area:before {
   background-color: #1c152f;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -25364,7 +25487,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .home-three-wrapper {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 .home-three-wrapper h1,
 .home-three-wrapper h2,
@@ -25378,7 +25501,7 @@ table p {
 .home-three-wrapper .h4,
 .home-three-wrapper .h5,
 .home-three-wrapper .h6 {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 .home-three-wrapper .header-area.header-default.header-style5 .container-fluid {
   max-width: none;
@@ -25430,7 +25553,7 @@ table p {
   }
 }
 .home-three-wrapper .section-title .subtitle {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-three-wrapper .product-item .product-thumb .product-action button {
@@ -25456,7 +25579,7 @@ table p {
   .category-item
   .content
   .title {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-three-wrapper
@@ -25480,7 +25603,7 @@ table p {
 }
 .home-three-wrapper .category-area .btn-theme {
   margin-top: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .home-three-wrapper .category-area .btn-theme {
@@ -25488,34 +25611,34 @@ table p {
   }
 }
 .home-three-wrapper .category-area .product-info .content-inner .title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-three-wrapper .category-area .product-info .content-inner .prices .price {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-three-wrapper .divider-area .divider-content.divider-content-style4 h2 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .home-three-wrapper .divider-area .divider-content.divider-content-style4 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .home-three-wrapper
   .divider-area
   .divider-content.divider-content-style4
   .btn-theme {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-three-wrapper .newsletter-content.content-style4 .title {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .home-three-wrapper .newsletter-content.content-style4 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-three-wrapper
   .newsletter-content.content-style4
   .newsletter-form
   .form-control {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media only screen and (max-width: 1399px) {
   .home-three-wrapper .footer-area.footer-style6 {
@@ -25523,7 +25646,7 @@ table p {
   }
 }
 .home-three-wrapper .footer-area .footer-main .widget-item h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-three-wrapper
   .footer-area
@@ -25532,7 +25655,7 @@ table p {
   .widget-menu-wrap
   .nav-menu
   li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -25541,7 +25664,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .home-four-wrapper {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-four-wrapper h1,
 .home-four-wrapper h2,
@@ -25555,7 +25678,7 @@ table p {
 .home-four-wrapper .h4,
 .home-four-wrapper .h5,
 .home-four-wrapper .h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (max-width: 479.98px) {
   .home-four-wrapper
@@ -25573,7 +25696,7 @@ table p {
   }
 }
 .home-four-wrapper .section-title .subtitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .home-four-wrapper .product-area.new-product-area {
   padding: 100px 0;
@@ -25658,7 +25781,7 @@ table p {
   color: #333;
 }
 .home-five-wrapper .section-title .subtitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .home-five-wrapper .product-area.new-product-area {
   padding: 94px 0 69px;
@@ -25691,7 +25814,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .home-six-wrapper {
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
 }
 .home-six-wrapper h1,
 .home-six-wrapper h2,
@@ -25705,7 +25828,7 @@ table p {
 .home-six-wrapper .h4,
 .home-six-wrapper .h5,
 .home-six-wrapper .h6 {
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
 }
 @media only screen and (max-width: 575px) {
   .home-six-wrapper .header-area.header-default.header-style3 .header-align {
@@ -25741,7 +25864,7 @@ table p {
   color: #5c665d;
 }
 .home-six-wrapper .section-title .subtitle {
-  font-family: "Taviraj", serif;
+  font-family: 'Taviraj', serif;
 }
 .home-six-wrapper .product-area.product-most-viewed-area .section-title {
   margin-bottom: 52px;
@@ -25765,10 +25888,10 @@ table p {
   }
 }
 .home-six-wrapper .footer-area.footer-style6 .footer-main .widget-item {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .home-six-wrapper .footer-area.footer-style6 .footer-main .widget-item h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -25777,7 +25900,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .home-seven-wrapper {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 .home-seven-wrapper h1,
 .home-seven-wrapper h2,
@@ -25791,7 +25914,7 @@ table p {
 .home-seven-wrapper .h4,
 .home-seven-wrapper .h5,
 .home-seven-wrapper .h6 {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-seven-wrapper
@@ -25848,7 +25971,7 @@ table p {
   color: #333;
 }
 .home-seven-wrapper .section-title .subtitle {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 .home-seven-wrapper .home-area {
   padding-top: 100px;
@@ -25924,7 +26047,7 @@ table p {
   .product-info
   .content-inner
   .title {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-seven-wrapper
@@ -25944,7 +26067,7 @@ table p {
   .product-info
   .content-inner
   .category {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-seven-wrapper
@@ -25963,7 +26086,7 @@ table p {
   .product-info
   .prices
   .price {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 @media only screen and (max-width: 1199px) {
   .home-seven-wrapper
@@ -25988,18 +26111,18 @@ table p {
   margin-bottom: 7px;
 }
 .home-seven-wrapper .footer-area.default-style .footer-main .widget-item {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 .home-seven-wrapper .footer-area.default-style .footer-main .widget-item h4 {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 .home-seven-wrapper .footer-area.footer-style7 .footer-main .widget-item h4 {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
 /* AY CSS*/
 .srmenu-title {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   font-size: 16px !important;
   color: #5c665d !important;
 }
@@ -26122,6 +26245,7 @@ table p {
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+/*  */
 .contact-form .contact-form-wrapper .phone-mask {
   background-color: transparent;
   border: 1px solid #ccc;
@@ -26131,6 +26255,35 @@ table p {
   font-weight: 400;
   height: 62px;
   padding: 2px 25px;
+}
+.phone,
+.phone:focus,
+.phone:hover,
+.iti--separate-dial-code {
+  background-color: transparent;
+  border-radius: 0;
+  color: #444;
+  font-size: 16px;
+  font-weight: 400;
+  height: 62px;
+  box-shadow: none;
+}
+.phone::placeholder {
+  color: #444;
+}
+.phone,
+.phone:focus,
+.phone:hover {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.iti--separate-dial-code {
+  width: 100%;
+  /* border: 1px solid gray; */
+}
+#phone.placeholder-shown:focus {
+  /* Define the style for the placeholder when focused */
+  color: gray; /* for example */
 }
 .contact-area .contact-form .contact-form-wrapper.form-style .phone-mask {
   padding: 2px 20px;
@@ -26262,12 +26415,12 @@ table p {
 }
 .product-shop-inner-area .widget_list h3::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 40px;
   height: 3px;
   background: #5c665d;
-  bottom: 0;
+  sneakerstom: 0;
 }
 .widget_categories ul {
   padding: 0 20px 0px;
@@ -26309,7 +26462,7 @@ table p {
   > ul
   > li.widget_sub_categories
   > a::before {
-  content: "\f107";
+  content: '\f107';
   cursor: pointer;
   font-family: FontAwesome;
   font-size: 12px;
@@ -26348,7 +26501,7 @@ table p {
   padding: 6px 0;
   text-transform: capitalize;
 }
-.product-shop-inner-area .checkbox-wrapper input[type="checkbox"] {
+.product-shop-inner-area .checkbox-wrapper input[type='checkbox'] {
   -webkit-appearance: none;
   appearance: none;
   vertical-align: middle;
@@ -26363,9 +26516,9 @@ table p {
   margin-right: 3px;
   margin-top: -3px;
 }
-.checkbox-wrapper input[type="checkbox"]:before,
-.checkbox-wrapper input[type="checkbox"]:after {
-  content: "";
+.checkbox-wrapper input[type='checkbox']:before,
+.checkbox-wrapper input[type='checkbox']:after {
+  content: '';
   position: absolute;
   background: var(--borderColor);
   width: calc(var(--borderWidth) * 3);
@@ -26374,25 +26527,25 @@ table p {
   left: 20%;
   transform-origin: left center;
 }
-.checkbox-wrapper input[type="checkbox"]:before {
+.checkbox-wrapper input[type='checkbox']:before {
   transform: rotate(45deg)
     translate(calc(var(--borderWidth) / -2), calc(var(--borderWidth) / -2))
     scaleX(0);
   transition: transform 200ms ease-in 200ms;
 }
-.checkbox-wrapper input[type="checkbox"]:after {
+.checkbox-wrapper input[type='checkbox']:after {
   width: calc(var(--borderWidth) * 5);
   transform: rotate(-45deg) translateY(calc(var(--borderWidth) * 2)) scaleX(0);
   transform-origin: left center;
   transition: transform 200ms ease-in;
 }
-.checkbox-wrapper input[type="checkbox"]:checked:before {
+.checkbox-wrapper input[type='checkbox']:checked:before {
   transform: rotate(45deg)
     translate(calc(var(--borderWidth) / -2), calc(var(--borderWidth) / -2))
     scaleX(1);
   transition: transform 200ms ease-in;
 }
-.checkbox-wrapper input[type="checkbox"]:checked:after {
+.checkbox-wrapper input[type='checkbox']:checked:after {
   width: calc(var(--borderWidth) * 5);
   transform: rotate(-45deg) translateY(calc(var(--borderWidth) * 2)) scaleX(1);
   transition: transform 200ms ease-out 200ms;
@@ -26429,7 +26582,7 @@ table p {
   font-weight: 400;
 }
 .product-area.product-detail .product-desc {
-  max-height: 120px;
+  max-height: 200px;
   overflow-y: auto;
   margin-bottom: 10px;
   font-size: 14px;
@@ -26474,23 +26627,24 @@ table p {
   display: flex;
 }
 .single-product-info .product-ratting {
-  margin-top: 5px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 .single-product-info .product-desc::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 .single-product-info .product-desc::-webkit-scrollbar-thumb {
-  background-color: #5c665d;
+  background-color: #838a80;
 }
 .single-product-info .product-desc::-webkit-scrollbar-track {
-  background-color: #e9ecef;
+  background-color: #838a80;
 }
 .page-not-found-area .thumb img {
   max-width: 520px;
 }
 .logo-main {
-  max-width: 50px;
-  object-fit: contain;
+  /* max-width: 50px;
+  object-fit: contain; */
 }
 .page-not-found-area .thumb h1 {
   font-size: 200px;
@@ -26559,6 +26713,7 @@ table p {
   background-color: #00d25c;
   color: #fff;
   padding: 10px 30px;
+  margin-top: 15px;
 }
 .details_cart_btn a:hover {
   background-color: #079f49;
@@ -26569,7 +26724,8 @@ table p {
   font-size: 20px;
 }
 .product-area.product-detail .thumb-item .lightbox-image {
-  height: 100%;
+  /* height: 100%; */
+  width: 100%;
 }
 .footer-area.footer-style1 .footer-top .row {
   display: flex;
@@ -26584,7 +26740,8 @@ table p {
 }
 .table_desc .cart_page table {
   width: 100%;
-  max-width: 800px;
+  /* max-width: 800px; */
+  border-left: 1px solid #ededed;
 }
 tbody,
 td,
@@ -26826,7 +26983,10 @@ tr {
   color: #222222;
 }
 .language_currency > ul > li > a i {
-  margin-left: 3px;
+  margin-left: 0px;
+  font-size: 9px;
+  top: -3px;
+  position: relative;
 }
 .header-action-cart {
   display: flex;
@@ -26837,8 +26997,9 @@ tr {
 }
 #video {
   position: relative;
-  height: 100vh;
+  height: unset;
   width: 100%;
+  aspect-ratio: 1920/822;
   object-fit: cover;
 }
 .header-logo-area a,
@@ -26865,7 +27026,7 @@ tr {
   text-transform: uppercase;
   padding-top: 30px;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -26876,24 +27037,210 @@ tr {
   color: #5c665d !important;
 }
 .header-action-cart.other-pages .language a {
-  color: #949980 !important;
+  color: #5c665d !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.about-main,
+.main-content {
+  background: #e3f5dc;
+}
+
+@media (max-width: 1200px) {
+  .header-area .row-gutter-0.align-items-center {
+    padding: 10px 0;
+  }
 }
 @media (max-width: 720px) {
   .featured-area {
     padding: 20px 0px 20px !important;
   }
+  .blog-area.blog-grid-area .post-item .content .btn-theme {
+    padding: 8px 35px 8px;
+  }
+  .featured-item .content .inner-content .title h4 {
+    font-size: 15px;
+  }
+  .single-product-slider .single-product-thumb .thumb-item {
+    /* height: 470px; */
+  }
+  .header-area .row-gutter-0.align-items-center {
+    padding: 10px 0;
+  }
+  .blog-area.blog-grid-area .pagination-area {
+    margin-top: 0;
+  }
 }
-@media (max-width: 450px){
-  .logo-main-text{
+@media (max-width: 450px) {
+  .logo-main-text {
     max-width: 70px !important;
   }
-  .logo-main{
-    max-width: 45px !important;
+  .logo-main {
+    /* max-width: 45px !important; */
   }
 }
-@media(max-width: 768px) {
-  .product-area.product-detail .product-desc{
+@media (max-width: 768px) {
+  .product-area.product-detail .product-desc {
     max-height: 190px !important;
   }
 }
 /* AY CSS*/
+
+/* __________________________ */
+
+.mobile-video {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .web-video .desc-video {
+    display: none;
+  }
+  .mobile-video {
+    display: block;
+  }
+  .mobile-video #video {
+    width: 100%;
+    height: 90vh;
+    aspect-ratio: 390/700;
+  }
+}
+
+/* .row-gutter-6.masonry-grid {
+  margin-left: 0;
+  margin-right: 0;
+}
+.category-masonry-style1.row-gutter-6 [class*='masonry-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.masonry-item.item-size2 {
+  z-index: 10000;
+}
+.category-masonry-style1 .masonry-item.item-size2 {
+  z-index: 10000;
+}
+
+.category-masonry-style1 .masonry-item {
+  margin-bottom: 0;
+} */
+
+.all-man {
+  display: flex;
+}
+.man-left {
+  width: 25.3%;
+  padding: 0;
+}
+.man-middle {
+  width: 34.5%;
+  padding: 0;
+}
+.man-right {
+  width: 40.2%;
+  padding: 0;
+}
+
+.category-item {
+  /* height: 398px; */
+}
+.category-item .thumb img {
+  height: 100%;
+}
+.man-left .category-item .thumb img {
+  height: unset;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.man-right .category-item .thumb img {
+  height: unset;
+  width: 100%;
+  aspect-ratio: 755/475;
+}
+.man-middle .category-item .thumb img {
+  height: unset;
+  width: 100%;
+  aspect-ratio: 661/969;
+}
+.category-item .thumb {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+/* .masonry-item.item-size2 .category-item {
+  height: 796px;
+} */
+.ht-tooltip {
+  z-index: 1000;
+}
+@media (max-width: 1250px) {
+  /* .all-man {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .man-left {
+    width: 40%;
+    padding: 0;
+  }
+  .man-middle {
+    width: 60%;
+    padding: 0;
+  }
+  .man-right {
+    display: flex;
+    width: 100%;
+    padding: 0;
+  } */
+}
+
+@media (max-width: 991px) {
+  /* .category-item {
+    height: 300px;
+  }
+  .masonry-item.item-size2 .category-item {
+    height: 600px;
+  } */
+}
+@media (max-width: 767px) {
+  .all-man {
+    display: block;
+    padding: 15px;
+  }
+  .product-area.best-sellers-product-area {
+    padding: 33px 0 33px;
+  }
+  .category-item {
+    height: unset;
+  }
+  .masonry-item.item-size2 .category-item {
+    height: unset;
+  }
+  .man-left {
+    width: 100%;
+  }
+  .man-middle {
+    width: 100%;
+  }
+  .man-right {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+
+/* NEW CSS */
+.fancybox-container ,
+.fancybox-navigation{
+  height: 100vh;
+}
+.fancybox-bg{
+  height: 100%;
+}
+.fancybox-stage{
+  height: 100vh;
+}
+.zoom-icon i{
+  color: #e3f5dc;
+}

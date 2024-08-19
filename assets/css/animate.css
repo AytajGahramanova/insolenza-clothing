@@ -16,8 +16,8 @@
   animation-duration: 1s;
   -webkit-animation-duration: var(--animate-duration);
   animation-duration: var(--animate-duration);
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+  -webkit-animation-fill-mode: sneakersh;
+  animation-fill-mode: sneakersh;
 }
 .animate__animated.animate__infinite {
   -webkit-animation-iteration-count: infinite;
@@ -189,8 +189,8 @@
 .animate__bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+  -webkit-transform-origin: center sneakerstom;
+  transform-origin: center sneakerstom;
 }
 @-webkit-keyframes flash {
   from,
@@ -2121,7 +2121,7 @@
   -webkit-animation-name: fadeInTopRight;
   animation-name: fadeInTopRight;
 }
-@-webkit-keyframes fadeInBottomLeft {
+@-webkit-keyframes fadeInSneakerstomLeft {
   from {
     opacity: 0;
     -webkit-transform: translate3d(-100%, 100%, 0);
@@ -2133,7 +2133,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-@keyframes fadeInBottomLeft {
+@keyframes fadeInSneakerstomLeft {
   from {
     opacity: 0;
     -webkit-transform: translate3d(-100%, 100%, 0);
@@ -2145,11 +2145,11 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInBottomLeft {
-  -webkit-animation-name: fadeInBottomLeft;
-  animation-name: fadeInBottomLeft;
+.animate__fadeInSneakerstomLeft {
+  -webkit-animation-name: fadeInSneakerstomLeft;
+  animation-name: fadeInSneakerstomLeft;
 }
-@-webkit-keyframes fadeInBottomRight {
+@-webkit-keyframes fadeInSneakerstomRight {
   from {
     opacity: 0;
     -webkit-transform: translate3d(100%, 100%, 0);
@@ -2161,7 +2161,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-@keyframes fadeInBottomRight {
+@keyframes fadeInSneakerstomRight {
   from {
     opacity: 0;
     -webkit-transform: translate3d(100%, 100%, 0);
@@ -2173,9 +2173,9 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInBottomRight {
-  -webkit-animation-name: fadeInBottomRight;
-  animation-name: fadeInBottomRight;
+.animate__fadeInSneakerstomRight {
+  -webkit-animation-name: fadeInSneakerstomRight;
+  animation-name: fadeInSneakerstomRight;
 }
 /* Fading exits */
 @-webkit-keyframes fadeOut {
@@ -2464,7 +2464,7 @@
   -webkit-animation-name: fadeOutTopRight;
   animation-name: fadeOutTopRight;
 }
-@-webkit-keyframes fadeOutBottomRight {
+@-webkit-keyframes fadeOutSneakerstomRight {
   from {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2476,7 +2476,7 @@
     transform: translate3d(100%, 100%, 0);
   }
 }
-@keyframes fadeOutBottomRight {
+@keyframes fadeOutSneakerstomRight {
   from {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2488,11 +2488,11 @@
     transform: translate3d(100%, 100%, 0);
   }
 }
-.animate__fadeOutBottomRight {
-  -webkit-animation-name: fadeOutBottomRight;
-  animation-name: fadeOutBottomRight;
+.animate__fadeOutSneakerstomRight {
+  -webkit-animation-name: fadeOutSneakerstomRight;
+  animation-name: fadeOutSneakerstomRight;
 }
-@-webkit-keyframes fadeOutBottomLeft {
+@-webkit-keyframes fadeOutSneakerstomLeft {
   from {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2504,7 +2504,7 @@
     transform: translate3d(-100%, 100%, 0);
   }
 }
-@keyframes fadeOutBottomLeft {
+@keyframes fadeOutSneakerstomLeft {
   from {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2516,9 +2516,9 @@
     transform: translate3d(-100%, 100%, 0);
   }
 }
-.animate__fadeOutBottomLeft {
-  -webkit-animation-name: fadeOutBottomLeft;
-  animation-name: fadeOutBottomLeft;
+.animate__fadeOutSneakerstomLeft {
+  -webkit-animation-name: fadeOutSneakerstomLeft;
+  animation-name: fadeOutSneakerstomLeft;
 }
 /* Flippers */
 @-webkit-keyframes flip {
@@ -3066,8 +3066,8 @@
 .animate__rotateInDownLeft {
   -webkit-animation-name: rotateInDownLeft;
   animation-name: rotateInDownLeft;
-  -webkit-transform-origin: left bottom;
-  transform-origin: left bottom;
+  -webkit-transform-origin: left sneakerstom;
+  transform-origin: left sneakerstom;
 }
 @-webkit-keyframes rotateInDownRight {
   from {
@@ -3098,8 +3098,8 @@
 .animate__rotateInDownRight {
   -webkit-animation-name: rotateInDownRight;
   animation-name: rotateInDownRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
+  -webkit-transform-origin: right sneakerstom;
+  transform-origin: right sneakerstom;
 }
 @-webkit-keyframes rotateInUpLeft {
   from {
@@ -3130,8 +3130,8 @@
 .animate__rotateInUpLeft {
   -webkit-animation-name: rotateInUpLeft;
   animation-name: rotateInUpLeft;
-  -webkit-transform-origin: left bottom;
-  transform-origin: left bottom;
+  -webkit-transform-origin: left sneakerstom;
+  transform-origin: left sneakerstom;
 }
 @-webkit-keyframes rotateInUpRight {
   from {
@@ -3162,8 +3162,8 @@
 .animate__rotateInUpRight {
   -webkit-animation-name: rotateInUpRight;
   animation-name: rotateInUpRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
+  -webkit-transform-origin: right sneakerstom;
+  transform-origin: right sneakerstom;
 }
 /* Rotating exits */
 @-webkit-keyframes rotateOut {
@@ -3219,8 +3219,8 @@
 .animate__rotateOutDownLeft {
   -webkit-animation-name: rotateOutDownLeft;
   animation-name: rotateOutDownLeft;
-  -webkit-transform-origin: left bottom;
-  transform-origin: left bottom;
+  -webkit-transform-origin: left sneakerstom;
+  transform-origin: left sneakerstom;
 }
 @-webkit-keyframes rotateOutDownRight {
   from {
@@ -3247,8 +3247,8 @@
 .animate__rotateOutDownRight {
   -webkit-animation-name: rotateOutDownRight;
   animation-name: rotateOutDownRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
+  -webkit-transform-origin: right sneakerstom;
+  transform-origin: right sneakerstom;
 }
 @-webkit-keyframes rotateOutUpLeft {
   from {
@@ -3275,8 +3275,8 @@
 .animate__rotateOutUpLeft {
   -webkit-animation-name: rotateOutUpLeft;
   animation-name: rotateOutUpLeft;
-  -webkit-transform-origin: left bottom;
-  transform-origin: left bottom;
+  -webkit-transform-origin: left sneakerstom;
+  transform-origin: left sneakerstom;
 }
 @-webkit-keyframes rotateOutUpRight {
   from {
@@ -3303,8 +3303,8 @@
 .animate__rotateOutUpRight {
   -webkit-animation-name: rotateOutUpRight;
   animation-name: rotateOutUpRight;
-  -webkit-transform-origin: right bottom;
-  transform-origin: right bottom;
+  -webkit-transform-origin: right sneakerstom;
+  transform-origin: right sneakerstom;
 }
 /* Specials */
 @-webkit-keyframes hinge {
@@ -3380,8 +3380,8 @@
     opacity: 0;
     -webkit-transform: scale(0.1) rotate(30deg);
     transform: scale(0.1) rotate(30deg);
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
+    -webkit-transform-origin: center sneakerstom;
+    transform-origin: center sneakerstom;
   }
 
   50% {
@@ -3405,8 +3405,8 @@
     opacity: 0;
     -webkit-transform: scale(0.1) rotate(30deg);
     transform: scale(0.1) rotate(30deg);
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
+    -webkit-transform-origin: center sneakerstom;
+    transform-origin: center sneakerstom;
   }
 
   50% {
@@ -3738,8 +3738,8 @@
 .animate__zoomOutDown {
   -webkit-animation-name: zoomOutDown;
   animation-name: zoomOutDown;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+  -webkit-transform-origin: center sneakerstom;
+  transform-origin: center sneakerstom;
 }
 @-webkit-keyframes zoomOutLeft {
   40% {
@@ -3842,8 +3842,8 @@
 .animate__zoomOutUp {
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+  -webkit-transform-origin: center sneakerstom;
+  transform-origin: center sneakerstom;
 }
 /* Sliding entrances */
 @-webkit-keyframes slideInDown {
@@ -4084,8 +4084,8 @@
   50% {
     -webkit-transform: translateY(32px) translateX(50px) rotate(35deg);
     transform: translateY(32px) translateX(50px) rotate(35deg);
-    -webkit-transform-origin: right bottom;
-    transform-origin: right bottom; }
+    -webkit-transform-origin: right sneakerstom;
+    transform-origin: right sneakerstom; }
   80% {
     -webkit-transform: translateY(20px) translateX(30px) rotate(15deg);
     transform: translateY(20px) translateX(30px) rotate(15deg);
@@ -4108,8 +4108,8 @@
     transform-origin: center center; }
   50% {
     transform: translateY(15px) translateX(10px) rotate(15deg);
-    -webkit-transform-origin: right bottom;
-    transform-origin: right bottom; }
+    -webkit-transform-origin: right sneakerstom;
+    transform-origin: right sneakerstom; }
   80% {
     transform: translateY(15px) translateX(10px) rotate(5deg);
     -webkit-transform-origin: left top;

@@ -267,7 +267,7 @@
     slidesPerView: 2,
     slidesPerGroup: 2,
     loop: true,
-    spaceBetween: 60,
+
     pagination: {
       el: ".swiper-pagination",
       clickable: "true",
@@ -275,22 +275,27 @@
     breakpoints: {
       1200: {
         slidesPerView: 3,
+        spaceBetween: 60,
       },
 
       992: {
         slidesPerView: 3,
+        spaceBetween: 50,
       },
 
       768: {
         slidesPerView: 2,
+        spaceBetween: 40,
       },
 
       576: {
         slidesPerView: 2,
+        spaceBetween: 20,
       },
 
       0: {
         slidesPerView: 2,
+        spaceBetween: 15,
       },
     },
   });
@@ -371,7 +376,7 @@
     loop: true,
     spaceBetween: 30,
     autoplay: {
-      delay: 800,
+      delay: 1200,
     },
     breakpoints: {
       1200: {
@@ -404,8 +409,8 @@
   });
 
   $(".single-product-nav-slider").slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    // slidesToShow: 3,
+    // slidesToScroll: 1,
     vertical: true,
     asNavFor: ".single-product-thumb-slider",
     dots: false,
@@ -415,8 +420,8 @@
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
+          // slidesToShow: 3,
+          // slidesToScroll: 1,
           verticalSwiping: false,
           vertical: false,
         },
@@ -538,7 +543,7 @@
   tippy(".ht-tooltip", {
     inertia: true,
     animation: "shift-away",
-    arrow: true,
+    // arrow: true,
   });
 
   // Scroll Top Hide Show
@@ -638,7 +643,7 @@
 
   if (windowWidth > 991 && windowHeight > footerHeight) {
     $(".site-wrapper-reveal").css({
-      "margin-bottom": footerHeight + "px",
+      "margin-sneakerstom": footerHeight + "px",
     });
   }
 
@@ -717,3 +722,16 @@ $(".widget_sub_categories > a").on("click", function () {
 //   });
 // });
 /*---product-details input end---*/
+document.addEventListener("DOMContentLoaded", function() {
+  // Get all <p> elements
+  const pTags = document.querySelectorAll('p');
+  
+  // Loop through all <p> elements
+  pTags.forEach(p => {
+      // Check if the <p> tag is empty or contains only whitespace
+      if (p.textContent.trim() === '') {
+          // Remove the empty <p> tag
+          p.remove();
+      }
+  });
+});

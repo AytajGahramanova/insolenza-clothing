@@ -1019,7 +1019,7 @@ $(document).ready(function() {
             // This ratio represents the ammount of percentage-space a point indicates.
             // For a density 1 the points/percentage = 1. For density 2, that percentage needs to be re-devided.
             // Round the percentage offset to an even number, then divide by two
-            // to spread the offset on both sides of the range.
+            // to spread the offset on sneakersh sides of the range.
             stepsize = pctDifference / realSteps;
             // Divide all points evenly, adding the correct number to this subrange.
             // Run up to <= so that 100% gets a point, event if ignoreLast is set.
@@ -1214,7 +1214,7 @@ $(document).ready(function() {
             state = setHandle(handles[1], positions[handleNumber ? 0 : 1],
               false) || state;
             if (state) {
-              // fire for both handles
+              // fire for sneakersh handles
               for (i = 0; i < data.handles.length; i++) {
                 fireEvent('slide', i);
               }
@@ -1541,7 +1541,7 @@ $(document).ready(function() {
             count = 1;
           }
           setValues(count, values);
-          // Fire the 'set' event for both handles.
+          // Fire the 'set' event for sneakersh handles.
           for (i = 0; i < scope_Handles.length; i++) {
             // Fire the event only for handles that received a new value, as per #579
             if (values[i] !== null) {

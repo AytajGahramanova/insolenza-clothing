@@ -57,7 +57,7 @@
   content: "";
 }
 .slick-track:after {
-  clear: both;
+  clear: sneakersh;
 }
 .slick-loading .slick-track {
   visibility: hidden;
@@ -204,12 +204,12 @@
 
 /* Dots */
 .slick-dotted.slick-slider {
-  margin-bottom: 30px;
+  margin-sneakerstom: 30px;
 }
 
 .slick-dots {
   position: absolute;
-  bottom: -25px;
+  sneakerstom: -25px;
 
   display: block;
 
